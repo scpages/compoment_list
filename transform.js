@@ -31,12 +31,13 @@ function buildRows(items) {
     const cls   = d.class || "-";
     const grade = d.grade || "-";
     const size  = d.size  != null ? d.size : "-";
+    const gradeCls = grade !== "-" ? `grade-${grade.toLowerCase()}` : "";
 
     rows += `
       <tr>
         <td class="comp-name">${name}</td>
-        <td>${cls}</td>
-        <td>${grade}</td>
+        <td><span class="cls cls-${cls.toLowerCase()}">${cls}</span></td>
+        <td><span class="grade ${gradeCls}">${grade}</span></td>
         <td>${size}</td>
       </tr>`;
   }
@@ -142,6 +143,35 @@ const html = `
     tr:last-child td { border-bottom: none; }
 
     .comp-name { font-weight: 600; color: #2a9fd6; }
+
+    .grade {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .cls {
+      display: inline-block;
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .cls-military    { background: rgba(60, 180, 80,  0.15); color: #3cb450; border: 1px solid rgba(60, 180, 80,  0.3); }
+    .cls-competition { background: rgba(220, 50,  50,  0.15); color: #dc3232; border: 1px solid rgba(220, 50,  50,  0.3); }
+    .cls-stealth     { background: rgba(130, 80,  220, 0.15); color: #8250dc; border: 1px solid rgba(130, 80,  220, 0.3); }
+    .cls-industrial  { background: rgba(210, 140, 30,  0.15); color: #d28c1e; border: 1px solid rgba(210, 140, 30,  0.3); }
+    .cls-civilian    { background: rgba(100, 160, 200, 0.15); color: #64a0c8; border: 1px solid rgba(100, 160, 200, 0.3); }
+
+    .grade-a { background: rgba(180, 60, 255, 0.15); color: #bf40ff; border: 1px solid rgba(180, 60, 255, 0.35); }
+    .grade-b { background: rgba(255, 140, 0,  0.15); color: #ff8c00; border: 1px solid rgba(255, 140, 0,  0.35); }
+    .grade-c { background: rgba(255, 220, 0,  0.15); color: #ffd700; border: 1px solid rgba(255, 220, 0,  0.35); }
+    .grade-d { background: rgba(255, 255, 255, 0.08); color: #e8e8e8; border: 1px solid rgba(255, 255, 255, 0.2); }
 
     .section-header {
       background: rgba(42,159,214,0.1);
