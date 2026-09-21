@@ -20,10 +20,6 @@ const CATEGORY_FILES = {
   Shield:             "shield.json",
   QuantumDrive:       "qdrives.json",
   Radar:              "radars.json",
-  AssembledWeapon:    "weapons.json",
-  AssembledMount:     "weapons.json",
-  AssembledTurret:    "weapons.json",
-  AssembledMissileRack: "weapons.json",
 };
 
 async function fetchBin(url, retries = 3) {

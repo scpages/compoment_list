@@ -13,7 +13,6 @@ const powerPlants = loadJson("power.json");
 const coolers    = loadJson("cooler.json");
 const shields    = loadJson("shield.json");
 const qdrives    = loadJson("qdrives.json");
-const weapons    = loadJson("weapons.json");
 const radars     = loadJson("radars.json");
 
 function buildRows(items) {
@@ -215,7 +214,6 @@ const html = `
     ${section("Coolers",     coolers)}
     ${section("Shields",     shields)}
     ${section("Quantum Drives", qdrives)}
-    ${section("Weapons",    weapons)}
     ${section("Radars",     radars)}
 
     <div class="footer">
