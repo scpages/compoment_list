@@ -1,0 +1,282 @@
+[
+  {
+    "data": {
+      "name": "Fridan",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 0
+    }
+  },
+  {
+    "data": {
+      "name": "Frost-Star SL",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 0
+    }
+  },
+  {
+    "data": {
+      "name": "ArcticStorm",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "BlastChill",
+      "class": "Civilian",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Bracer",
+      "class": "Military",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Eco-Flow",
+      "class": "Industrial",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Frost-Star",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Glacier",
+      "class": "Military",
+      "grade": "A",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "HeatSafe",
+      "class": "Stealth",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Hydrocel",
+      "class": "Industrial",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "IcePlunge",
+      "class": "Competition",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Polar",
+      "class": "Military",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "QuikCool",
+      "class": "Competition",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Thermax",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Ultra-Flow",
+      "class": "Industrial",
+      "grade": "A",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "VaporBlock",
+      "class": "Stealth",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Winter-Star",
+      "class": "Civilian",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "AbsoluteZero",
+      "class": "Competition",
+      "grade": "B",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Arctic",
+      "class": "Military",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Boreal",
+      "class": "Military",
+      "grade": "D",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "ColdSnap",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "CoolCore",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Frost-Star EX",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Graupel",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "HeatSink",
+      "class": "Stealth",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Permafrost",
+      "class": "Military",
+      "grade": "B",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Snowfall",
+      "class": "Industrial",
+      "grade": "B",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Blizzard",
+      "class": "Military",
+      "grade": "A",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "FrostBurn",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Ice-Flush",
+      "class": "Industrial",
+      "grade": "B",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Mercury",
+      "class": "Military",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "ThermalCore",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Algid",
+      "class": "Industrial",
+      "grade": "A",
+      "size": 4
+    }
+  },
+  {
+    "data": {
+      "name": "Exotherm",
+      "class": null,
+      "grade": "A",
+      "size": 4
+    }
+  },
+  {
+    "data": {
+      "name": "Serac",
+      "class": "Civilian",
+      "grade": "A",
+      "size": 4
+    }
+  }
+]

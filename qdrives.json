@@ -1,0 +1,202 @@
+[
+  {
+    "data": {
+      "name": "Beacon",
+      "class": "Military",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Colossus",
+      "class": "Industrial",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Drift",
+      "class": "Stealth",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Eos",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Expedition",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Flood",
+      "class": "Civilian",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "FoxFire",
+      "class": "Competition",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Goliath",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "LightFire",
+      "class": "Competition",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Rush",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "VK-00",
+      "class": "Military",
+      "grade": "A",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Bolon",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Crossfield",
+      "class": "Military",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Huracan",
+      "class": "Industrial",
+      "grade": "B",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Khaos",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Nova",
+      "class": "Stealth",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Odyssey",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "SparkFire",
+      "class": "Competition",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Torrent",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Yeager",
+      "class": "Military",
+      "grade": "B",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Erebos",
+      "class": "Civilian",
+      "grade": "A",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Kama",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Pontes",
+      "class": "Military",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Allegro",
+      "class": "Civilian",
+      "grade": "A",
+      "size": 4
+    }
+  },
+  {
+    "data": {
+      "name": "Frontline",
+      "class": null,
+      "grade": "A",
+      "size": 4
+    }
+  }
+]

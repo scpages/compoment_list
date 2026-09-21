@@ -1,0 +1,282 @@
+[
+  {
+    "data": {
+      "name": "PIN",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 0
+    }
+  },
+  {
+    "data": {
+      "name": "5SA 'Rhada'",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "AllStop",
+      "class": "Military",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Bulwark",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Cloak",
+      "class": "Stealth",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Falco",
+      "class": "Competition",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "ForceWall",
+      "class": "Military",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "FR-66",
+      "class": "Military",
+      "grade": "A",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "HEX",
+      "class": "Civilian",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "INK",
+      "class": "Civilian",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Palisade",
+      "class": "Industrial",
+      "grade": "A",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "SecureHyde",
+      "class": "Military",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Shimmer",
+      "class": "Stealth",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Targa",
+      "class": "Competition",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Veil",
+      "class": "Stealth",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "WEB",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "5MA 'Chimalli'",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Armada",
+      "class": "Industrial",
+      "grade": "D",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Aspis",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Citadel",
+      "class": "Industrial",
+      "grade": "B",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "FullStop",
+      "class": "Military",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Obscura",
+      "class": "Stealth",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "SecureShield",
+      "class": "Military",
+      "grade": "D",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Sheut",
+      "class": "Stealth",
+      "grade": "B",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "STOP",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Sukoran",
+      "class": "Military",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "5CA 'Akura'",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Barbican",
+      "class": "Industrial",
+      "grade": "B",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "FullBlock",
+      "class": "Military",
+      "grade": "B",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "GUARD",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Stronghold",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "SureStop",
+      "class": "Military",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Glacis",
+      "class": "Industrial",
+      "grade": "A",
+      "size": 4
+    }
+  },
+  {
+    "data": {
+      "name": "Holdstrong",
+      "class": null,
+      "grade": "A",
+      "size": 4
+    }
+  },
+  {
+    "data": {
+      "name": "RS-Barrier",
+      "class": "Industrial",
+      "grade": "A",
+      "size": 4
+    }
+  }
+]

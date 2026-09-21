@@ -1,0 +1,1817 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Component List - Star Citizen</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔧%3C/text%3E%3C/svg%3E">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+      color: #e8e8e8;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      min-height: 100vh;
+    }
+
+    .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
+
+    header {
+      background: rgba(10, 14, 39, 0.8);
+      backdrop-filter: blur(10px);
+      border-bottom: 2px solid #2a9fd6;
+      padding: 20px 0;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+
+    h1 {
+      color: #ffffff;
+      font-size: 2rem;
+      font-weight: 600;
+      text-align: center;
+      text-shadow: 0 0 20px rgba(42,159,214,0.5);
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #a0a0a0;
+      font-size: 0.9rem;
+      margin-top: 8px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: rgba(20, 25, 45, 0.6);
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    }
+
+    th {
+      background: linear-gradient(180deg, #1e3a5f 0%, #152840 100%);
+      color: #ffffff;
+      font-weight: 600;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 0.5px;
+      padding: 16px 12px;
+      text-align: left;
+      border-bottom: 2px solid #2a9fd6;
+    }
+
+    td {
+      padding: 12px 12px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      color: #d0d0d0;
+      font-size: 0.9rem;
+    }
+
+    tr:hover { background-color: rgba(42,159,214,0.1); transition: background-color 0.2s ease; }
+    tr:last-child td { border-bottom: none; }
+
+    .comp-name { font-weight: 600; color: #2a9fd6; }
+
+    .grade {
+      display: inline-block;
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .cls {
+      display: inline-block;
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 2px 8px;
+      border-radius: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    .cls-military    { background: rgba(60, 180, 80,  0.15); color: #3cb450; border: 1px solid rgba(60, 180, 80,  0.3); }
+    .cls-competition { background: rgba(220, 50,  50,  0.15); color: #dc3232; border: 1px solid rgba(220, 50,  50,  0.3); }
+    .cls-stealth     { background: rgba(130, 80,  220, 0.15); color: #8250dc; border: 1px solid rgba(130, 80,  220, 0.3); }
+    .cls-industrial  { background: rgba(210, 140, 30,  0.15); color: #d28c1e; border: 1px solid rgba(210, 140, 30,  0.3); }
+    .cls-civilian    { background: rgba(100, 160, 200, 0.15); color: #64a0c8; border: 1px solid rgba(100, 160, 200, 0.3); }
+
+    .grade-a { background: rgba(180, 60, 255, 0.15); color: #bf40ff; border: 1px solid rgba(180, 60, 255, 0.35); }
+    .grade-b { background: rgba(255, 140, 0,  0.15); color: #ff8c00; border: 1px solid rgba(255, 140, 0,  0.35); }
+    .grade-c { background: rgba(255, 220, 0,  0.15); color: #ffd700; border: 1px solid rgba(255, 220, 0,  0.35); }
+    .grade-d { background: rgba(255, 255, 255, 0.08); color: #e8e8e8; border: 1px solid rgba(255, 255, 255, 0.2); }
+
+    .section-header {
+      background: rgba(42,159,214,0.1);
+      border-left: 4px solid #2a9fd6;
+      padding: 15px 20px;
+      margin: 40px 0 20px 0;
+      border-radius: 4px;
+    }
+
+    .section-header h2 { color: #2a9fd6; font-size: 1.4rem; font-weight: 600; }
+
+    .footer {
+      margin-top: 50px;
+      padding: 20px 0;
+      border-top: 1px solid rgba(42,159,214,0.3);
+      color: #888;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    .footer a { color: #2a9fd6; text-decoration: none; margin: 0 8px; }
+    .footer a:hover { color: #4fc3f7; text-decoration: underline; }
+
+    @media (max-width: 600px) {
+      th, td { padding: 10px 8px; }
+      h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Component List</h1>
+      <div class="subtitle">Star Citizen - Components by Class &amp; Grade</div>
+    </div>
+  </header>
+
+  <div class="container">
+    
+    <div class="section-header">
+      <h2>Power Plants</h2>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Class</th>
+          <th>Grade</th>
+          <th>Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      <tr>
+        <td class="comp-name">IonWave</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Radix</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Charger</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">DeltaMax</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">DynaFlux</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Endurance</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Fierell Cascade</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Fortitude</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">IonBurst</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">JS-300</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">LightBlossom</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">LumaCore</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">OverDrive</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">PowerBolt</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">QuadraCell</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Regulus</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Roughneck</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Slipstream</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">SonicLite</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">StarHeart</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">SunFlare</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">ZapJet</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">DayBreak</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Diligence</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Eclipse</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">ExoGen</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">FullForce</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">GammaMax</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">LuxCore</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Maelstrom</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Sedulity</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Trommel</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">TurboDrive</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">UltraFlux</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Centurion</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Durango</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Ginzel</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Reliance</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">SuperDrive</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Main Powerplant</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Stellate</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      </tbody>
+    </table>
+    
+    <div class="section-header">
+      <h2>Coolers</h2>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Class</th>
+          <th>Grade</th>
+          <th>Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      <tr>
+        <td class="comp-name">Fridan</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Frost-Star SL</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td class="comp-name">ArcticStorm</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">BlastChill</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Bracer</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Eco-Flow</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Frost-Star</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Glacier</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">HeatSafe</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Hydrocel</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">IcePlunge</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Polar</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">QuikCool</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Thermax</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Ultra-Flow</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">VaporBlock</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Winter-Star</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">AbsoluteZero</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Arctic</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Boreal</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">ColdSnap</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">CoolCore</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Frost-Star EX</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Graupel</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">HeatSink</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Permafrost</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Snowfall</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Blizzard</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">FrostBurn</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Ice-Flush</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Mercury</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">ThermalCore</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Algid</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Exotherm</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Serac</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      </tbody>
+    </table>
+    
+    <div class="section-header">
+      <h2>Shields</h2>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Class</th>
+          <th>Grade</th>
+          <th>Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      <tr>
+        <td class="comp-name">PIN</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td class="comp-name">5SA 'Rhada'</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">AllStop</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Bulwark</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Cloak</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Falco</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">ForceWall</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">FR-66</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">HEX</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">INK</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Palisade</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">SecureHyde</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Shimmer</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Targa</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Veil</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">WEB</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">5MA 'Chimalli'</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Armada</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Aspis</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Citadel</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">FullStop</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Obscura</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">SecureShield</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Sheut</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">STOP</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Sukoran</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">5CA 'Akura'</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Barbican</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">FullBlock</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">GUARD</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Stronghold</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">SureStop</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Glacis</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Holdstrong</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">RS-Barrier</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      </tbody>
+    </table>
+    
+    <div class="section-header">
+      <h2>Quantum Drives</h2>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Class</th>
+          <th>Grade</th>
+          <th>Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      <tr>
+        <td class="comp-name">Beacon</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Colossus</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Drift</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Eos</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Expedition</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Flood</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">FoxFire</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Goliath</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">LightFire</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Rush</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">VK-00</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Bolon</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Crossfield</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Huracan</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Khaos</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Nova</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Odyssey</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">SparkFire</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Torrent</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Yeager</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Erebos</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Kama</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Pontes</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Allegro</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Frontline</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      </tbody>
+    </table>
+    
+    <div class="section-header">
+      <h2>Weapons</h2>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Class</th>
+          <th>Grade</th>
+          <th>Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      <tr>
+        <td class="comp-name">'WEAK' Repeater</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">CF-117 Bulldog Repeater</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">M3A Cannon</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Manned Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MSD-111 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MSD-543 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Ramming Blade</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Remote Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">VariPuck S1 Gimbal Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Guardian MX Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Hermes Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">M2C "Swarm"</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Mirai Fury 1xS2 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Mirai Fury MX 2xS1 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MSD-212 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MSD-221 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Origin 100i Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Origin 125a Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">RSI Apollo Medivac S02 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">RSI Apollo S02 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">San'tok.yāi Gimbal Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">ST-171 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">STR-E2 Gimbal Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Tractor Beam</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">VariPuck S2 Gimbal Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Anvil Arrow Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Anvil F7A Hornet Mk I Nose Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Anvil Hornet F7C Nose Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Anvil Hornet Mk II S3 Nose Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Anvil Lightning F8C Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Anvil Terrapin Nose Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Consolidated Outland Mustang Nose Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Gatac Missile Rack 2xS2</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Mirai Fury MX 2xS2 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MSD-313 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MSD-322 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MSD-341 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Origin Jumpworks 85X Remote Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">PC2 Dual S3 Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">San'tok.yāi Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Vanduul S3 Quad Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">VariPuck S3 Gimbal Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Drake Cutlass Steel Remote Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Gatac Missile Rack 8xS1</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Kruger Stingray S4 Missile Rack - Left</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Kruger Stingray S4 Missile Rack - Right</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MSD-414 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MSD-423 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MSD-442 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MSD-481 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Nav-E7 Echo Scanner</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">PC2 Dual S4 Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Reliant Cernan Camera Package</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Reliant Gilroy Gimbal</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Reliant Samos Sensor Suite</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Reliant Toshima Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Reliant Utility Mount Cap</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">RSI Constellation Side Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">RSI Zeus Missile Launcher</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Scorpius Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">ST-205 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Starlancer Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Talon Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Vanduul S4 Quad Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">VariPuck S4 Gimbal Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>4</td>
+      </tr>
+      <tr>
+        <td class="comp-name">'WAR' Cannon</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">'WRATH' Cannon</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">A1 Spirit Bomb Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Aegis Vanguard Torpedo Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Anvil F7C-M Mk II Ball Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Anvil Gladiator Quad S5 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Anvil Hornet Ghost Center Cap</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Anvil Hornet Ghost Mk II Center Cap</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Anvil Lightning F8 Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">C4-160f S5 Hornet Ball Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">C4-163f S5 Hornet Mk I Ball Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">C5-173f S5 Hornet Mk II Ball Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Drake Ironclad Torpedo Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Esperia Prowler Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Esperia Stinger Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Herald Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Mercury Dual S3 Nose Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">MISC Freelancer MIS Missile Launcher</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Reliant Tana Missile Launcher</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">RSI Constellation Top Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Specialty Hornet S5 VariPuck Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">TMSB-5 Ball Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">VariPuck S5 Gimbal Mount</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">WillsOp Long Look Radar</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Aegis Gemini Missile Launcher</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Aegis Sabre Firebird 12xS3 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Hull B Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>6</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Ares Star Fighter Missile Launcher</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Asgard Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td class="comp-name">IFR-A77 Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td class="comp-name">IFR-W57 Turret</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td class="comp-name">SF7B Gatling</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td class="comp-name">SF7E Cannon</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>7</td>
+      </tr>
+      <tr>
+        <td class="comp-name">IFR-810 Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>8</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Aegis Eclipse Torpedo Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>9</td>
+      </tr>
+      <tr>
+        <td class="comp-name">A2 Hercules Bomb Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Destroyer Mass Driver Cannon</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td class="comp-name">RSI Polaris Missile Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td class="comp-name">RSI Polaris Torpedo Rack</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>10</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Supremacy-10T Laser Beam</td>
+        <td><span class="cls cls--">-</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>10</td>
+      </tr>
+      </tbody>
+    </table>
+    
+    <div class="section-header">
+      <h2>Radars</h2>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Component</th>
+          <th>Class</th>
+          <th>Grade</th>
+          <th>Size</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+      <tr>
+        <td class="comp-name">Denning</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Capston</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Ecouter</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Fleming</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Observer-Lite</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Pelerous</td>
+        <td><span class="cls cls-stealth">Stealth</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">SNS-R6</td>
+        <td><span class="cls cls-competition">Competition</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Surveyor-Lite</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Voir</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-d">D</span></td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Chernykh</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Epier</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">FullSpec</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-a">A</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Surveyor</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Capsulo</td>
+        <td><span class="cls cls-civilian">Civilian</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Resolu</td>
+        <td><span class="cls cls-military">Military</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">Surveyor-Max</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-c">C</span></td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td class="comp-name">BroadSpec-Max</td>
+        <td><span class="cls cls-industrial">Industrial</span></td>
+        <td><span class="grade grade-b">B</span></td>
+        <td>4</td>
+      </tr>
+      </tbody>
+    </table>
+
+    <div class="footer">
+      Generated: Mon, 21 Sep 2026 08:07:48 GMT |
+      <a href="https://github.com/scpages/compoment_list" target="_blank">GitHub Repository</a> |
+      Data from <a href="https://www.erkul.games" target="_blank">erkul.games</a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,330 @@
+[
+  {
+    "data": {
+      "name": "IonWave",
+      "class": "Civilian",
+      "grade": "B",
+      "size": 0
+    }
+  },
+  {
+    "data": {
+      "name": "Radix",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 0
+    }
+  },
+  {
+    "data": {
+      "name": "Charger",
+      "class": "Military",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "DeltaMax",
+      "class": "Stealth",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "DynaFlux",
+      "class": "Military",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Endurance",
+      "class": "Industrial",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Fierell Cascade",
+      "class": "Military",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Fortitude",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "IonBurst",
+      "class": "Civilian",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "JS-300",
+      "class": "Military",
+      "grade": "A",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "LightBlossom",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "LumaCore",
+      "class": "Competition",
+      "grade": "A",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "OverDrive",
+      "class": "Military",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "PowerBolt",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "QuadraCell",
+      "class": "Military",
+      "grade": "A",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Regulus",
+      "class": "Military",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Roughneck",
+      "class": "Industrial",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "Slipstream",
+      "class": "Stealth",
+      "grade": "A",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "SonicLite",
+      "class": "Stealth",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "StarHeart",
+      "class": "Competition",
+      "grade": "B",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "SunFlare",
+      "class": "Competition",
+      "grade": "C",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "ZapJet",
+      "class": "Civilian",
+      "grade": "D",
+      "size": 1
+    }
+  },
+  {
+    "data": {
+      "name": "DayBreak",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Diligence",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Eclipse",
+      "class": "Stealth",
+      "grade": "A",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "ExoGen",
+      "class": "Military",
+      "grade": "D",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "FullForce",
+      "class": "Civilian",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "GammaMax",
+      "class": "Stealth",
+      "grade": "B",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "LuxCore",
+      "class": "Competition",
+      "grade": "A",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Maelstrom",
+      "class": "Military",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Sedulity",
+      "class": "Industrial",
+      "grade": "B",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Trommel",
+      "class": "Industrial",
+      "grade": "D",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "TurboDrive",
+      "class": "Military",
+      "grade": "C",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "UltraFlux",
+      "class": "Military",
+      "grade": "B",
+      "size": 2
+    }
+  },
+  {
+    "data": {
+      "name": "Centurion",
+      "class": "Military",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Durango",
+      "class": "Industrial",
+      "grade": "A",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Ginzel",
+      "class": "Industrial",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Reliance",
+      "class": "Industrial",
+      "grade": "B",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "SuperDrive",
+      "class": "Military",
+      "grade": "C",
+      "size": 3
+    }
+  },
+  {
+    "data": {
+      "name": "Main Powerplant",
+      "class": null,
+      "grade": "A",
+      "size": 4
+    }
+  },
+  {
+    "data": {
+      "name": "Stellate",
+      "class": "Civilian",
+      "grade": "A",
+      "size": 4
+    }
+  }
+]
