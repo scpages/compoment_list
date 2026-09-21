@@ -1,24 +1,40 @@
-# Star Citizen Component List
+# Ship Component List
 
-Script which extracts component data from erkul.games and generates an HTML page listing all available components with their class, grade, and size.
+Fetches ship component data from the [UEX Corp API](https://uexcorp.space) and generates a static HTML page listing all components with their stats and in-game buy prices.
+
+Live at: **https://scpages.github.io/component-list/**
 
 ## What it shows
 
-Each component category (Power Plants, Coolers, Shields, Quantum Drives, Weapons, Radars) is displayed in its own table with:
+Each category (Power Plants, Coolers, Shield Generators, Quantum Drives, Radars) has its own table with:
 
-- **Component** — full component name
-- **Class** — full class name (e.g. Military, Stealth, Competition)
-- **Grade** — grade number
-- **Size** — component size
+| Column | Description |
+|---|---|
+| Component | Component name |
+| Size | S1 / S2 / S3 … |
+| Class | Military, Stealth, Competition, Industrial, Civilian |
+| Grade | A, B, C, D |
+| Buy Price | In-game aUEC price (toggleable) |
+| Location | City · Terminal (toggleable) |
 
-## Usage
+Buy price and location columns are hidden by default — toggle them with the **Show Buy Prices** button.
+
+Items are sorted by size, then grade (A→D), then class, then name.
+
+## Workflow
 
 ```bash
+# Generate HTML from local JSON data
 bash main.sh
+
+# Fetch fresh data from UEX Corp API, then commit + push
+bash update_components.sh
 ```
 
-This downloads fresh data from erkul.games and generates `index.html`. Open it in your browser.
+`main.sh` only reads local JSON files and regenerates `index.html`.
+`update_components.sh` hits the UEX API + scrapes uexcorp.space for class/grade, then pushes if data changed.
 
-## Data Source
+## Data Sources
 
-- Data from [erkul.games](https://www.erkul.games) API
+- Item list & prices: [UEX Corp API](https://api.uexcorp.space/2.0/) (`/items`, `/items_prices`)
+- Class & grade: scraped from [uexcorp.space/vehicles/components](https://uexcorp.space/vehicles/components)
