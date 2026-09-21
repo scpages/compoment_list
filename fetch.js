@@ -100,7 +100,13 @@ async function main() {
       };
     }).sort((a, b) => {
       const sa = parseInt(a.size) || 99, sb = parseInt(b.size) || 99;
-      return sa !== sb ? sa - sb : a.name.localeCompare(b.name);
+      if (sa !== sb) return sa - sb;
+      const GRADE_ORDER = { A: 0, B: 1, C: 2, D: 3 };
+      const ga = GRADE_ORDER[a.grade] ?? 99, gb = GRADE_ORDER[b.grade] ?? 99;
+      if (ga !== gb) return ga - gb;
+      const ca = (a.class || "").toLowerCase(), cb = (b.class || "").toLowerCase();
+      if (ca !== cb) return ca.localeCompare(cb);
+      return a.name.localeCompare(b.name);
     });
 
     fs.writeFileSync(cat.file, JSON.stringify(data, null, 2));

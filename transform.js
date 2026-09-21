@@ -20,6 +20,20 @@ function fmtAUEC(n) {
   return `${n}`;
 }
 
+const GRADE_ORDER = { A: 0, B: 1, C: 2, D: 3 };
+
+function sortItems(items) {
+  return [...items].sort((a, b) => {
+    const sa = parseInt(a.size) || 99, sb = parseInt(b.size) || 99;
+    if (sa !== sb) return sa - sb;
+    const ga = GRADE_ORDER[a.grade] ?? 99, gb = GRADE_ORDER[b.grade] ?? 99;
+    if (ga !== gb) return ga - gb;
+    const ca = (a.class || "").toLowerCase(), cb = (b.class || "").toLowerCase();
+    if (ca !== cb) return ca.localeCompare(cb);
+    return a.name.localeCompare(b.name);
+  });
+}
+
 function buildRows(items) {
   if (!items.length) return `<tr><td colspan="5" class="no-data">No data</td></tr>`;
   return items.map(item => {
@@ -70,7 +84,7 @@ function section(title, items) {
     </div>`;
 }
 
-const sectionsHtml = SECTIONS.map(s => section(s.title, load(s.file))).join("");
+const sectionsHtml = SECTIONS.map(s => section(s.title, sortItems(load(s.file)))).join("");
 
 const html = `<!DOCTYPE html>
 <html lang="en">
