@@ -41,7 +41,6 @@ function buildRows(items) {
         <td class="size-cell"><span class="size-badge">S${item.size || "?"}</span></td>
         <td><span class="cls ${classCls}">${classStr}</span></td>
         <td><span class="grade ${gradeCls}">${gradeStr}</span></td>
-        <td class="maker-cell">${item.maker || "—"}</td>
         <td>${priceHtml}</td>
         <td>${locHtml}</td>
       </tr>`;
@@ -62,7 +61,6 @@ function section(title, items) {
             <th>Size</th>
             <th>Class</th>
             <th>Grade</th>
-            <th>Manufacturer</th>
             <th>Buy Price (aUEC)</th>
             <th>Location</th>
           </tr>
