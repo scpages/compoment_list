@@ -72,7 +72,7 @@ const html = `
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Component List - Star Citizen</title>
+  <title>Ship Component List - Star Citizen</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔧%3C/text%3E%3C/svg%3E">
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -205,7 +205,7 @@ const html = `
 
   <header>
     <div class="container">
-      <h1>Component List</h1>
+      <h1>Ship Component List</h1>
       <div class="subtitle">Star Citizen - Components by Class &amp; Grade</div>
     </div>
   </header>
