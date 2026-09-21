@@ -3,6 +3,8 @@
     "id": 1758,
     "name": "Bolide",
     "size": "1",
+    "grade": "B",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -11,6 +13,8 @@
     "id": 142,
     "name": "Breton",
     "size": "1",
+    "grade": "A",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -30,6 +34,8 @@
     "id": 942,
     "name": "DeltaMax",
     "size": "1",
+    "grade": "B",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.9",
     "prices": [
@@ -54,6 +60,8 @@
     "id": 141,
     "name": "DynaFlux",
     "size": "1",
+    "grade": "B",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.8.3",
     "prices": []
@@ -62,6 +70,8 @@
     "id": 580,
     "name": "Endurance",
     "size": "1",
+    "grade": "B",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -81,6 +91,8 @@
     "id": 1928,
     "name": "ExoGen",
     "size": "1",
+    "grade": "D",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.0.1",
     "prices": []
@@ -89,6 +101,8 @@
     "id": 1771,
     "name": "Fierell Cascade",
     "size": "1",
+    "grade": "B",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -97,6 +111,8 @@
     "id": 940,
     "name": "Fortitude",
     "size": "1",
+    "grade": "C",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -121,6 +137,8 @@
     "id": 1958,
     "name": "FullForce Pro",
     "size": "1",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.0.1",
     "prices": [
@@ -140,6 +158,8 @@
     "id": 1927,
     "name": "HyperGen",
     "size": "1",
+    "grade": "D",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.0.1",
     "prices": []
@@ -148,6 +168,8 @@
     "id": 583,
     "name": "IonBurst",
     "size": "1",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -217,6 +239,8 @@
     "id": 1925,
     "name": "IonWave",
     "size": "1",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.0.1",
     "prices": [
@@ -231,6 +255,8 @@
     "id": 1774,
     "name": "JS-300",
     "size": "1",
+    "grade": "A",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.0.1",
     "prices": []
@@ -239,6 +265,8 @@
     "id": 941,
     "name": "LightBlossom",
     "size": "1",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Sakura Sun",
     "version": "4.9",
     "prices": [
@@ -298,6 +326,8 @@
     "id": 140,
     "name": "LumaCore",
     "size": "1",
+    "grade": "A",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.9",
     "prices": [
@@ -382,6 +412,8 @@
     "id": 136,
     "name": "MagnaBloom",
     "size": "1",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Sakura Sun",
     "version": "4.9",
     "prices": [
@@ -406,6 +438,8 @@
     "id": 1755,
     "name": "MegaFlux",
     "size": "1",
+    "grade": "B",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.0.1",
     "prices": []
@@ -414,6 +448,8 @@
     "id": 1926,
     "name": "NewDawn",
     "size": "1",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Sakura Sun",
     "version": "4.0.1",
     "prices": [
@@ -433,6 +469,8 @@
     "id": 1957,
     "name": "PowerBolt",
     "size": "1",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -457,6 +495,8 @@
     "id": 1757,
     "name": "QuadraCell",
     "size": "1",
+    "grade": "A",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -465,6 +505,8 @@
     "id": 1528,
     "name": "Roughneck",
     "size": "1",
+    "grade": "D",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -489,6 +531,8 @@
     "id": 943,
     "name": "SonicLite",
     "size": "1",
+    "grade": "C",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.9",
     "prices": [
@@ -553,6 +597,8 @@
     "id": 579,
     "name": "StarHeart",
     "size": "1",
+    "grade": "B",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.1",
     "prices": [
@@ -587,6 +633,8 @@
     "id": 966,
     "name": "SunFlare",
     "size": "1",
+    "grade": "C",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.9",
     "prices": [
@@ -701,6 +749,8 @@
     "id": 1912,
     "name": "SuperDrive",
     "size": "1",
+    "grade": "C",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.0.1",
     "prices": []
@@ -709,6 +759,8 @@
     "id": 1956,
     "name": "TurboDrive",
     "size": "1",
+    "grade": "C",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.0.1",
     "prices": []
@@ -717,6 +769,8 @@
     "id": 968,
     "name": "WhiteRose",
     "size": "1",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Sakura Sun",
     "version": "4.9",
     "prices": [
@@ -741,6 +795,8 @@
     "id": 2028,
     "name": "ZapJet",
     "size": "1",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -805,6 +861,8 @@
     "id": 137,
     "name": "Cirrus",
     "size": "2",
+    "grade": "C",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.9",
     "prices": [
@@ -824,6 +882,8 @@
     "id": 1346,
     "name": "DayBreak",
     "size": "2",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Sakura Sun",
     "version": "4.9",
     "prices": [
@@ -848,6 +908,8 @@
     "id": 143,
     "name": "Diligence",
     "size": "2",
+    "grade": "C",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -862,6 +924,8 @@
     "id": 135,
     "name": "FullForce",
     "size": "2",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -876,6 +940,8 @@
     "id": 581,
     "name": "Genoa",
     "size": "2",
+    "grade": "A",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.1",
     "prices": [
@@ -895,6 +961,8 @@
     "id": 584,
     "name": "IonSurge",
     "size": "2",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -934,6 +1002,8 @@
     "id": 1775,
     "name": "JS-400",
     "size": "2",
+    "grade": "A",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.0.1",
     "prices": []
@@ -942,6 +1012,8 @@
     "id": 1768,
     "name": "Lotus",
     "size": "2",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Sakura Sun",
     "version": "4.9",
     "prices": [
@@ -1001,6 +1073,8 @@
     "id": 2037,
     "name": "Maelstrom",
     "size": "2",
+    "grade": "C",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1009,6 +1083,8 @@
     "id": 2027,
     "name": "OverDrive",
     "size": "2",
+    "grade": "C",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.0.1",
     "prices": []
@@ -1017,6 +1093,8 @@
     "id": 1772,
     "name": "QuadraCell MT",
     "size": "2",
+    "grade": "A",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.8.3",
     "prices": []
@@ -1025,6 +1103,8 @@
     "id": 577,
     "name": "Sedulity",
     "size": "2",
+    "grade": "B",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.1",
     "prices": [
@@ -1044,6 +1124,8 @@
     "id": 2026,
     "name": "SolarFlare",
     "size": "2",
+    "grade": "C",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.9",
     "prices": [
@@ -1098,6 +1180,8 @@
     "id": 2038,
     "name": "SparkJet",
     "size": "2",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.0.1",
     "prices": [
@@ -1117,6 +1201,8 @@
     "id": 139,
     "name": "StarBurn",
     "size": "2",
+    "grade": "B",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.9",
     "prices": [
@@ -1296,6 +1382,8 @@
     "id": 1529,
     "name": "Trommel",
     "size": "2",
+    "grade": "D",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -1315,6 +1403,8 @@
     "id": 1769,
     "name": "UltraFlux",
     "size": "2",
+    "grade": "B",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.8.0",
     "prices": []
@@ -1323,6 +1413,8 @@
     "id": 2151,
     "name": "Vortex",
     "size": "2",
+    "grade": "D",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1331,6 +1423,8 @@
     "id": 1756,
     "name": "Celestial",
     "size": "3",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Sakura Sun",
     "version": "4.9",
     "prices": [
@@ -1355,6 +1449,8 @@
     "id": 934,
     "name": "Centurion",
     "size": "3",
+    "grade": "C",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1363,6 +1459,8 @@
     "id": 938,
     "name": "Charger",
     "size": "3",
+    "grade": "D",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1371,6 +1469,8 @@
     "id": 939,
     "name": "Drassik",
     "size": "3",
+    "grade": "D",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1379,6 +1479,8 @@
     "id": 134,
     "name": "Durango",
     "size": "3",
+    "grade": "A",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -1398,6 +1500,8 @@
     "id": 970,
     "name": "Eclipse",
     "size": "3",
+    "grade": "A",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.0.1",
     "prices": []
@@ -1406,6 +1510,8 @@
     "id": 935,
     "name": "Fulgur",
     "size": "3",
+    "grade": "B",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1414,6 +1520,8 @@
     "id": 944,
     "name": "GammaMax",
     "size": "3",
+    "grade": "B",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.8.1",
     "prices": []
@@ -1422,6 +1530,8 @@
     "id": 1929,
     "name": "Ginzel",
     "size": "3",
+    "grade": "C",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -1446,6 +1556,8 @@
     "id": 578,
     "name": "IonSurge Pro",
     "size": "3",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.1",
     "prices": [
@@ -1470,6 +1582,8 @@
     "id": 1770,
     "name": "JS-500",
     "size": "3",
+    "grade": "A",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.8.0",
     "prices": []
@@ -1478,6 +1592,8 @@
     "id": 138,
     "name": "LuxCore",
     "size": "3",
+    "grade": "A",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.0.1",
     "prices": []
@@ -1486,6 +1602,8 @@
     "id": 1773,
     "name": "QuadraCell MX",
     "size": "3",
+    "grade": "A",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.8.3",
     "prices": []
@@ -1494,6 +1612,8 @@
     "id": 965,
     "name": "Radiance",
     "size": "3",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Sakura Sun",
     "version": "4.0.1",
     "prices": []
@@ -1502,6 +1622,8 @@
     "id": 967,
     "name": "Regulus",
     "size": "3",
+    "grade": "C",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.9",
     "prices": []
@@ -1510,6 +1632,8 @@
     "id": 937,
     "name": "Slipstream",
     "size": "3",
+    "grade": "A",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.0.1",
     "prices": []
@@ -1518,6 +1642,8 @@
     "id": 936,
     "name": "SmartGen",
     "size": "3",
+    "grade": "D",
+    "class": "Military",
     "maker": "Amon & Reese Co.",
     "version": "4.0.1",
     "prices": []
@@ -1526,6 +1652,8 @@
     "id": 2706,
     "name": "SparkJet Pro",
     "size": "3",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -1545,6 +1673,8 @@
     "id": 969,
     "name": "TigerLilly",
     "size": "3",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Sakura Sun",
     "version": "4.9",
     "prices": [
@@ -1569,6 +1699,8 @@
     "id": 7099,
     "name": "Mauler Power Plant",
     "size": "4",
+    "grade": null,
+    "class": null,
     "maker": null,
     "version": null,
     "prices": []
@@ -1577,6 +1709,8 @@
     "id": 576,
     "name": "Defiant",
     "size": "",
+    "grade": "B",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.1",
     "prices": [
@@ -1656,6 +1790,8 @@
     "id": 582,
     "name": "DuraJet",
     "size": "0",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -1745,6 +1881,8 @@
     "id": 2705,
     "name": "Jennet",
     "size": "0",
+    "grade": "D",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -1759,6 +1897,8 @@
     "id": 2826,
     "name": "Main Powerplant",
     "size": null,
+    "grade": "A",
+    "class": "Industrial",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1767,6 +1907,8 @@
     "id": 2039,
     "name": "Radix",
     "size": "0",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -1791,6 +1933,8 @@
     "id": 4019,
     "name": "Reclaimer Power Plant",
     "size": null,
+    "grade": null,
+    "class": null,
     "maker": "Aegis Dynamics",
     "version": "4.1",
     "prices": []
@@ -1799,6 +1943,8 @@
     "id": 2827,
     "name": "Reliance",
     "size": null,
+    "grade": "B",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.0.1",
     "prices": []
@@ -1807,6 +1953,8 @@
     "id": 2156,
     "name": "Steadfast",
     "size": "0",
+    "grade": "C",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -1826,6 +1974,8 @@
     "id": 2828,
     "name": "Stellate",
     "size": null,
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Sakura Sun",
     "version": "4.0.1",
     "prices": []

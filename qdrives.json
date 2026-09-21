@@ -3,6 +3,8 @@
     "id": 1959,
     "name": "Atlas",
     "size": "1",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Roberts Space Industries",
     "version": "4.0.1",
     "prices": [
@@ -17,6 +19,8 @@
     "id": 973,
     "name": "Beacon",
     "size": "1",
+    "grade": "C",
+    "class": "Military",
     "maker": "Wei-Tek",
     "version": "4.0.1",
     "prices": []
@@ -25,6 +29,8 @@
     "id": 144,
     "name": "Burst",
     "size": "1",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "ArcCorp",
     "version": "4.9",
     "prices": [
@@ -104,6 +110,8 @@
     "id": 585,
     "name": "Colossus",
     "size": "1",
+    "grade": "B",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.1",
     "prices": [
@@ -183,6 +191,8 @@
     "id": 2030,
     "name": "Drift",
     "size": "1",
+    "grade": "C",
+    "class": "Stealth",
     "maker": "RAMP Corporation",
     "version": "4.9",
     "prices": [
@@ -297,6 +307,8 @@
     "id": 1960,
     "name": "Eos",
     "size": "1",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Roberts Space Industries",
     "version": "4.9",
     "prices": [
@@ -386,6 +398,8 @@
     "id": 2153,
     "name": "Expedition",
     "size": "1",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Tarsus",
     "version": "4.9",
     "prices": [
@@ -410,6 +424,8 @@
     "id": 147,
     "name": "Flood",
     "size": "1",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "ArcCorp",
     "version": "4.9",
     "prices": [
@@ -479,6 +495,8 @@
     "id": 586,
     "name": "FoxFire",
     "size": "1",
+    "grade": "B",
+    "class": "Competition",
     "maker": "Ace Astrogation",
     "version": "4.9",
     "prices": [
@@ -508,6 +526,8 @@
     "id": 153,
     "name": "Goliath",
     "size": "1",
+    "grade": "C",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -537,6 +557,8 @@
     "id": 1931,
     "name": "Hyperion",
     "size": "1",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Roberts Space Industries",
     "version": "4.9",
     "prices": [
@@ -591,6 +613,8 @@
     "id": 946,
     "name": "LightFire",
     "size": "1",
+    "grade": "C",
+    "class": "Competition",
     "maker": "Ace Astrogation",
     "version": "4.9",
     "prices": [
@@ -650,6 +674,8 @@
     "id": 148,
     "name": "Rush",
     "size": "1",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "ArcCorp",
     "version": "4.9",
     "prices": [
@@ -724,6 +750,8 @@
     "id": 974,
     "name": "Siren",
     "size": "1",
+    "grade": "B",
+    "class": "Military",
     "maker": "Wei-Tek",
     "version": "4.0.1",
     "prices": []
@@ -732,6 +760,8 @@
     "id": 2113,
     "name": "Spectre",
     "size": "1",
+    "grade": "A",
+    "class": "Stealth",
     "maker": "RAMP Corporation",
     "version": "4.0.1",
     "prices": []
@@ -740,6 +770,8 @@
     "id": 1347,
     "name": "VK-00",
     "size": "1",
+    "grade": "A",
+    "class": "Military",
     "maker": "Wei-Tek",
     "version": "4.0.1",
     "prices": []
@@ -748,6 +780,8 @@
     "id": 945,
     "name": "Voyage",
     "size": "1",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Tarsus",
     "version": "4.9",
     "prices": [
@@ -772,6 +806,8 @@
     "id": 1530,
     "name": "Vulcan",
     "size": "1",
+    "grade": "D",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.0.1",
     "prices": [
@@ -791,6 +827,8 @@
     "id": 949,
     "name": "Wayfare",
     "size": "1",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "Tarsus",
     "version": "4.0.1",
     "prices": [
@@ -805,6 +843,8 @@
     "id": 1752,
     "name": "Zephyr",
     "size": "1",
+    "grade": "B",
+    "class": "Stealth",
     "maker": "RAMP Corporation",
     "version": "4.9",
     "prices": [
@@ -859,6 +899,8 @@
     "id": 2157,
     "name": "Aither",
     "size": "2",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Roberts Space Industries",
     "version": "4.8.3",
     "prices": [
@@ -873,6 +915,8 @@
     "id": 2152,
     "name": "Bolon",
     "size": "2",
+    "grade": "C",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -897,6 +941,8 @@
     "id": 2031,
     "name": "Bolt",
     "size": "2",
+    "grade": "B",
+    "class": "Stealth",
     "maker": "RAMP Corporation",
     "version": "4.9",
     "prices": [
@@ -956,6 +1002,8 @@
     "id": 149,
     "name": "Cascade",
     "size": "2",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "ArcCorp",
     "version": "4.9",
     "prices": [
@@ -1030,6 +1078,8 @@
     "id": 975,
     "name": "Crossfield",
     "size": "2",
+    "grade": "C",
+    "class": "Military",
     "maker": "Wei-Tek",
     "version": "4.8.3",
     "prices": []
@@ -1038,6 +1088,8 @@
     "id": 145,
     "name": "Flash",
     "size": "2",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "ArcCorp",
     "version": "4.9",
     "prices": [
@@ -1057,6 +1109,8 @@
     "id": 1907,
     "name": "Hemera",
     "size": "2",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Roberts Space Industries",
     "version": "4.9",
     "prices": [
@@ -1081,6 +1135,8 @@
     "id": 588,
     "name": "Huracan",
     "size": "2",
+    "grade": "B",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -1160,6 +1216,8 @@
     "id": 1961,
     "name": "Khaos",
     "size": "2",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Roberts Space Industries",
     "version": "4.9",
     "prices": [
@@ -1179,6 +1237,8 @@
     "id": 972,
     "name": "Nova",
     "size": "2",
+    "grade": "C",
+    "class": "Stealth",
     "maker": "RAMP Corporation",
     "version": "4.8.3",
     "prices": [
@@ -1193,6 +1253,8 @@
     "id": 2707,
     "name": "Odyssey",
     "size": "2",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Tarsus",
     "version": "4.9",
     "prices": [
@@ -1207,6 +1269,8 @@
     "id": 2154,
     "name": "Quest",
     "size": "2",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "Tarsus",
     "version": "4.8.3",
     "prices": [
@@ -1221,6 +1285,8 @@
     "id": 1753,
     "name": "Sojourn",
     "size": "2",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Tarsus",
     "version": "4.9",
     "prices": [
@@ -1240,6 +1306,8 @@
     "id": 947,
     "name": "SparkFire",
     "size": "2",
+    "grade": "C",
+    "class": "Competition",
     "maker": "Ace Astrogation",
     "version": "4.8.3",
     "prices": [
@@ -1259,6 +1327,8 @@
     "id": 2032,
     "name": "Spicule",
     "size": "2",
+    "grade": "A",
+    "class": "Stealth",
     "maker": "RAMP Corporation",
     "version": "4.8.3",
     "prices": []
@@ -1267,6 +1337,8 @@
     "id": 587,
     "name": "SunFire",
     "size": "2",
+    "grade": "B",
+    "class": "Competition",
     "maker": "Ace Astrogation",
     "version": "4.1",
     "prices": [
@@ -1351,6 +1423,8 @@
     "id": 146,
     "name": "Torrent",
     "size": "2",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "ArcCorp",
     "version": "4.9",
     "prices": [
@@ -1370,6 +1444,8 @@
     "id": 976,
     "name": "XL-1",
     "size": "2",
+    "grade": "A",
+    "class": "Military",
     "maker": "Wei-Tek",
     "version": "4.0.1",
     "prices": []
@@ -1378,6 +1454,8 @@
     "id": 1930,
     "name": "Yaluk",
     "size": "2",
+    "grade": "D",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.0.1",
     "prices": [
@@ -1397,6 +1475,8 @@
     "id": 971,
     "name": "Yeager",
     "size": "2",
+    "grade": "B",
+    "class": "Military",
     "maker": "Wei-Tek",
     "version": "4.8.2",
     "prices": []
@@ -1405,6 +1485,8 @@
     "id": 589,
     "name": "Agni",
     "size": "3",
+    "grade": "B",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.4",
     "prices": [
@@ -1424,6 +1506,8 @@
     "id": 1349,
     "name": "Balandin",
     "size": "3",
+    "grade": "B",
+    "class": "Military",
     "maker": "Wei-Tek",
     "version": "4.8.3",
     "prices": []
@@ -1432,6 +1516,8 @@
     "id": 1963,
     "name": "Drifter",
     "size": "3",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "Tarsus",
     "version": "4.8.3",
     "prices": [
@@ -1446,6 +1532,8 @@
     "id": 150,
     "name": "Echo",
     "size": "3",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "ArcCorp",
     "version": "4.9",
     "prices": [
@@ -1460,6 +1548,8 @@
     "id": 1348,
     "name": "Erebos",
     "size": "3",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Roberts Space Industries",
     "version": "4.9",
     "prices": [
@@ -1474,6 +1564,8 @@
     "id": 151,
     "name": "Fissure",
     "size": "3",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "ArcCorp",
     "version": "4.9",
     "prices": [
@@ -1493,6 +1585,8 @@
     "id": 152,
     "name": "Impulse",
     "size": "3",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "ArcCorp",
     "version": "4.9",
     "prices": [
@@ -1517,6 +1611,8 @@
     "id": 948,
     "name": "Kama",
     "size": "3",
+    "grade": "C",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -1536,6 +1632,8 @@
     "id": 1962,
     "name": "Metis",
     "size": "3",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Roberts Space Industries",
     "version": "4.8.3",
     "prices": [
@@ -1555,6 +1653,8 @@
     "id": 977,
     "name": "Pontes",
     "size": "3",
+    "grade": "C",
+    "class": "Military",
     "maker": "Wei-Tek",
     "version": "4.8.3",
     "prices": []
@@ -1563,6 +1663,8 @@
     "id": 1933,
     "name": "Ranger",
     "size": "3",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Tarsus",
     "version": "4.9",
     "prices": [
@@ -1587,6 +1689,8 @@
     "id": 1909,
     "name": "TS-2",
     "size": "3",
+    "grade": "A",
+    "class": "Military",
     "maker": "Wei-Tek",
     "version": "4.0.1",
     "prices": []
@@ -1595,6 +1699,8 @@
     "id": 1932,
     "name": "Tyche",
     "size": "3",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Roberts Space Industries",
     "version": "4.8.3",
     "prices": [
@@ -1609,6 +1715,8 @@
     "id": 1531,
     "name": "Vesta",
     "size": "3",
+    "grade": "D",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -1628,6 +1736,8 @@
     "id": 1908,
     "name": "Wanderer",
     "size": "3",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Tarsus",
     "version": "4.0.1",
     "prices": [
@@ -1647,6 +1757,8 @@
     "id": 2829,
     "name": "Allegro",
     "size": "4",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "ArcCorp",
     "version": "4.8.3",
     "prices": []
@@ -1655,6 +1767,8 @@
     "id": 6998,
     "name": "Mauler Quantum Drive",
     "size": "4",
+    "grade": null,
+    "class": null,
     "maker": null,
     "version": null,
     "prices": []

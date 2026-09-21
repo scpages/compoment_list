@@ -30,10 +30,17 @@ function buildRows(items) {
       ? item.prices.map(p => `<span class="loc">${p.city ? p.city + " · " : ""}${p.terminal}</span>`).join("")
       : `<span class="no-data">—</span>`;
 
+    const classStr = item.class || "—";
+    const classCls = item.class ? `cls-${item.class.toLowerCase().replace(/\s+/g,"-")}` : "";
+    const gradeStr = item.grade || "—";
+    const gradeCls = item.grade ? `grade-${item.grade.toLowerCase()}` : "";
+
     return `
       <tr>
         <td class="comp-name">${item.name}</td>
         <td class="size-cell"><span class="size-badge">S${item.size || "?"}</span></td>
+        <td><span class="cls ${classCls}">${classStr}</span></td>
+        <td><span class="grade ${gradeCls}">${gradeStr}</span></td>
         <td class="maker-cell">${item.maker || "—"}</td>
         <td>${priceHtml}</td>
         <td>${locHtml}</td>
@@ -53,6 +60,8 @@ function section(title, items) {
           <tr>
             <th>Component</th>
             <th>Size</th>
+            <th>Class</th>
+            <th>Grade</th>
             <th>Manufacturer</th>
             <th>Buy Price (aUEC)</th>
             <th>Location</th>
@@ -94,6 +103,17 @@ const html = `<!DOCTYPE html>
     .maker-cell{color:#aaa;font-size:.82rem;white-space:nowrap}
     .price-val{display:block;font-weight:600;color:#e8e8e8;white-space:nowrap}
     .loc{display:block;color:#888;font-size:.78rem}
+    .cls{display:inline-block;font-size:.8rem;font-weight:600;padding:2px 7px;border-radius:4px;white-space:nowrap}
+    .cls-military    {background:rgba(60,180,80,.15);color:#3cb450;border:1px solid rgba(60,180,80,.3)}
+    .cls-competition {background:rgba(220,50,50,.15);color:#dc3232;border:1px solid rgba(220,50,50,.3)}
+    .cls-stealth     {background:rgba(130,80,220,.15);color:#8250dc;border:1px solid rgba(130,80,220,.3)}
+    .cls-industrial  {background:rgba(210,140,30,.15);color:#d28c1e;border:1px solid rgba(210,140,30,.3)}
+    .cls-civilian    {background:rgba(100,160,200,.15);color:#64a0c8;border:1px solid rgba(100,160,200,.3)}
+    .grade{display:inline-block;font-size:.8rem;font-weight:700;padding:2px 7px;border-radius:4px}
+    .grade-a{background:rgba(180,60,255,.15);color:#bf40ff;border:1px solid rgba(180,60,255,.35)}
+    .grade-b{background:rgba(255,140,0,.15);color:#ff8c00;border:1px solid rgba(255,140,0,.35)}
+    .grade-c{background:rgba(255,220,0,.15);color:#ffd700;border:1px solid rgba(255,220,0,.35)}
+    .grade-d{background:rgba(255,255,255,.08);color:#e8e8e8;border:1px solid rgba(255,255,255,.2)}
     .no-data{color:#555;text-align:center}
     .footer{margin-top:50px;padding:20px 0;border-top:1px solid rgba(42,159,214,.3);color:#888;font-size:.85rem;text-align:center}
     .footer a{color:#2a9fd6;text-decoration:none;margin:0 8px}

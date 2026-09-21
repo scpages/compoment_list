@@ -3,6 +3,8 @@
     "id": 5529,
     "name": "Abetti",
     "size": "1",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -17,6 +19,8 @@
     "id": 5533,
     "name": "Backlund",
     "size": "1",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -31,6 +35,8 @@
     "id": 5518,
     "name": "Capston",
     "size": "1",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -45,6 +51,8 @@
     "id": 5520,
     "name": "Ecouter",
     "size": "1",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -59,6 +67,8 @@
     "id": 4557,
     "name": "Fleming",
     "size": "1",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -73,6 +83,8 @@
     "id": 5547,
     "name": "Hunter",
     "size": "1",
+    "grade": null,
+    "class": "Stealth",
     "maker": "Blue Triangle Inc.",
     "version": null,
     "prices": [
@@ -87,6 +99,8 @@
     "id": 5549,
     "name": "Observer-Go",
     "size": "1",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -101,6 +115,8 @@
     "id": 5519,
     "name": "Observer-Lite",
     "size": "1",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -115,6 +131,8 @@
     "id": 5522,
     "name": "Pelerous",
     "size": "1",
+    "grade": null,
+    "class": "Stealth",
     "maker": "Blue Triangle Inc.",
     "version": null,
     "prices": [
@@ -129,6 +147,8 @@
     "id": 5552,
     "name": "Prophet",
     "size": "1",
+    "grade": null,
+    "class": "Stealth",
     "maker": "Blue Triangle Inc.",
     "version": null,
     "prices": [
@@ -143,6 +163,8 @@
     "id": 5556,
     "name": "SNS-R6",
     "size": "1",
+    "grade": null,
+    "class": "Competition",
     "maker": "Nav-E7 Gadgets",
     "version": null,
     "prices": [
@@ -157,6 +179,8 @@
     "id": 5559,
     "name": "SNSR5",
     "size": "1",
+    "grade": null,
+    "class": "Competition",
     "maker": "Nav-E7 Gadgets",
     "version": null,
     "prices": [
@@ -171,6 +195,8 @@
     "id": 5523,
     "name": "Surveyor-Lite",
     "size": "1",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -185,6 +211,8 @@
     "id": 6039,
     "name": "Tige",
     "size": "1",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": "4.10.0",
     "prices": [
@@ -199,6 +227,8 @@
     "id": 5600,
     "name": "V801-11",
     "size": "1",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -213,6 +243,8 @@
     "id": 5530,
     "name": "Agrippa",
     "size": "2",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -227,6 +259,8 @@
     "id": 5534,
     "name": "Battani",
     "size": "2",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -241,6 +275,8 @@
     "id": 5535,
     "name": "Broadspec",
     "size": "2",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -255,6 +291,8 @@
     "id": 5538,
     "name": "Cassandra",
     "size": "2",
+    "grade": null,
+    "class": "Stealth",
     "maker": "Blue Triangle Inc.",
     "version": null,
     "prices": [
@@ -269,6 +307,8 @@
     "id": 5106,
     "name": "Chernykh",
     "size": "2",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -283,6 +323,8 @@
     "id": 5526,
     "name": "Epier",
     "size": "2",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -297,6 +339,8 @@
     "id": 5542,
     "name": "Fawad",
     "size": "2",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -311,6 +355,8 @@
     "id": 5544,
     "name": "Fullspec",
     "size": "2",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -325,6 +371,8 @@
     "id": 7112,
     "name": "Mauler Radar",
     "size": "2",
+    "grade": null,
+    "class": null,
     "maker": null,
     "version": null,
     "prices": []
@@ -333,6 +381,8 @@
     "id": 5548,
     "name": "Observer",
     "size": "2",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -347,6 +397,8 @@
     "id": 5551,
     "name": "Predator",
     "size": "2",
+    "grade": null,
+    "class": "Stealth",
     "maker": "Blue Triangle Inc.",
     "version": null,
     "prices": [
@@ -361,6 +413,8 @@
     "id": 5553,
     "name": "Savoir",
     "size": "2",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -375,6 +429,8 @@
     "id": 5555,
     "name": "SNS-R5X",
     "size": "2",
+    "grade": null,
+    "class": "Competition",
     "maker": "Nav-E7 Gadgets",
     "version": null,
     "prices": [
@@ -389,6 +445,8 @@
     "id": 5557,
     "name": "SNS-R6X",
     "size": "2",
+    "grade": null,
+    "class": "Competition",
     "maker": "Nav-E7 Gadgets",
     "version": null,
     "prices": [
@@ -403,6 +461,8 @@
     "id": 5558,
     "name": "SNS-R7",
     "size": "2",
+    "grade": null,
+    "class": "Competition",
     "maker": "Nav-E7 Gadgets",
     "version": null,
     "prices": []
@@ -411,6 +471,8 @@
     "id": 5561,
     "name": "Spyglass",
     "size": "2",
+    "grade": null,
+    "class": "Stealth",
     "maker": "Blue Triangle Inc.",
     "version": null,
     "prices": [
@@ -425,6 +487,8 @@
     "id": 5521,
     "name": "Surveyor",
     "size": "2",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -439,6 +503,8 @@
     "id": 5601,
     "name": "V801-12",
     "size": "2",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -453,6 +519,8 @@
     "id": 6344,
     "name": "Vigilance",
     "size": "2",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": "4.10.0",
     "prices": [
@@ -467,6 +535,8 @@
     "id": 5532,
     "name": "Anysta",
     "size": "3",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -481,6 +551,8 @@
     "id": 5525,
     "name": "Capsulo",
     "size": "3",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -495,6 +567,8 @@
     "id": 5540,
     "name": "Devoue",
     "size": "3",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -509,6 +583,8 @@
     "id": 5543,
     "name": "Fidele",
     "size": "3",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -523,6 +599,8 @@
     "id": 5546,
     "name": "Fullspec-Max",
     "size": "3",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -537,6 +615,8 @@
     "id": 6618,
     "name": "Lephari",
     "size": "3",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": "4.8.2",
     "prices": [
@@ -551,6 +631,8 @@
     "id": 5550,
     "name": "Observer-Max",
     "size": "3",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -565,6 +647,8 @@
     "id": 5563,
     "name": "Resolu",
     "size": "3",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -579,6 +663,8 @@
     "id": 5560,
     "name": "Socoria",
     "size": "3",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -593,6 +679,8 @@
     "id": 5524,
     "name": "Surveyor-Max",
     "size": "3",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -607,6 +695,8 @@
     "id": 5599,
     "name": "V880",
     "size": "3",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -621,6 +711,8 @@
     "id": 5537,
     "name": "Broadspec-Max",
     "size": "4",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": []
@@ -629,6 +721,8 @@
     "id": 6607,
     "name": "radr_rsi_s04_polaris",
     "size": "4",
+    "grade": null,
+    "class": null,
     "maker": null,
     "version": null,
     "prices": []
@@ -637,6 +731,8 @@
     "id": 5531,
     "name": "Agure",
     "size": "0",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -651,6 +747,8 @@
     "id": 5536,
     "name": "Broadspec-Go",
     "size": "0",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -665,6 +763,8 @@
     "id": 5539,
     "name": "Denning",
     "size": "0",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -679,6 +779,8 @@
     "id": 5541,
     "name": "Fabian",
     "size": "0",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": null,
     "prices": [
@@ -693,6 +795,8 @@
     "id": 5545,
     "name": "Fullspec-Go",
     "size": "0",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -707,6 +811,8 @@
     "id": 5527,
     "name": "Prevenir",
     "size": "0",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -721,6 +827,8 @@
     "id": 5554,
     "name": "Sens",
     "size": "0",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": null,
     "prices": [
@@ -735,6 +843,8 @@
     "id": 5566,
     "name": "SNS-R7X",
     "size": null,
+    "grade": null,
+    "class": null,
     "maker": null,
     "version": null,
     "prices": [
@@ -749,6 +859,8 @@
     "id": 5567,
     "name": "SNSR7",
     "size": null,
+    "grade": null,
+    "class": null,
     "maker": null,
     "version": null,
     "prices": [
@@ -763,6 +875,8 @@
     "id": 5528,
     "name": "Surveyor-Go",
     "size": "0",
+    "grade": null,
+    "class": "Industrial",
     "maker": "Chimera Communications",
     "version": null,
     "prices": [
@@ -777,6 +891,8 @@
     "id": 6400,
     "name": "V60-26",
     "size": "",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": "4.10.0",
     "prices": [
@@ -791,6 +907,8 @@
     "id": 6355,
     "name": "Vogel",
     "size": "",
+    "grade": null,
+    "class": "Civilian",
     "maker": "WillsOp",
     "version": "4.10.0",
     "prices": [
@@ -805,6 +923,8 @@
     "id": 5103,
     "name": "Voir",
     "size": "",
+    "grade": null,
+    "class": "Military",
     "maker": "Groupe Nouveau Paradigme",
     "version": "4.10.0",
     "prices": [

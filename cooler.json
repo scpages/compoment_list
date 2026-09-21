@@ -3,6 +3,8 @@
     "id": 572,
     "name": "AbsoluteZero",
     "size": "1",
+    "grade": "B",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.0.1",
     "prices": []
@@ -11,6 +13,8 @@
     "id": 1354,
     "name": "ArcticStorm",
     "size": "1",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -95,6 +99,8 @@
     "id": 1955,
     "name": "Berian",
     "size": "1",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Wen-Cassel Propulsion",
     "version": "4.9",
     "prices": [
@@ -114,6 +120,8 @@
     "id": 1920,
     "name": "BlastChill",
     "size": "1",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -143,6 +151,8 @@
     "id": 928,
     "name": "Bracer",
     "size": "1",
+    "grade": "C",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -151,6 +161,8 @@
     "id": 1762,
     "name": "Cryo-Star",
     "size": "1",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.9",
     "prices": [
@@ -225,6 +237,8 @@
     "id": 1519,
     "name": "Eco-Flow",
     "size": "1",
+    "grade": "B",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.1",
     "prices": [
@@ -249,6 +263,8 @@
     "id": 2043,
     "name": "Endo",
     "size": "1",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Wen-Cassel Propulsion",
     "version": "4.0.1",
     "prices": [
@@ -263,6 +279,8 @@
     "id": 574,
     "name": "FlashFreeze",
     "size": "1",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.1",
     "prices": [
@@ -277,6 +295,8 @@
     "id": 128,
     "name": "Frost-Star",
     "size": "1",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.9",
     "prices": [
@@ -296,6 +316,8 @@
     "id": 1520,
     "name": "Frost-Star SL",
     "size": "1",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.0.1",
     "prices": [
@@ -320,6 +342,8 @@
     "id": 126,
     "name": "Gelid",
     "size": "1",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Wen-Cassel Propulsion",
     "version": "4.9",
     "prices": [
@@ -374,6 +398,8 @@
     "id": 954,
     "name": "Glacier",
     "size": "1",
+    "grade": "A",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -382,6 +408,8 @@
     "id": 931,
     "name": "HeatSafe",
     "size": "1",
+    "grade": "C",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.9",
     "prices": [
@@ -506,6 +534,8 @@
     "id": 131,
     "name": "Hydrocel",
     "size": "1",
+    "grade": "D",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -530,6 +560,8 @@
     "id": 2024,
     "name": "IcePlunge",
     "size": "1",
+    "grade": "C",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.9",
     "prices": [
@@ -584,6 +616,8 @@
     "id": 1766,
     "name": "Polar",
     "size": "1",
+    "grade": "B",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.9",
     "prices": []
@@ -592,6 +626,8 @@
     "id": 127,
     "name": "QuikCool",
     "size": "1",
+    "grade": "D",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.9",
     "prices": [
@@ -711,6 +747,8 @@
     "id": 927,
     "name": "SnowBlind",
     "size": "1",
+    "grade": "A",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.0.1",
     "prices": []
@@ -719,6 +757,8 @@
     "id": 1919,
     "name": "Thermax",
     "size": "1",
+    "grade": "C",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.0.1",
     "prices": [
@@ -743,6 +783,8 @@
     "id": 929,
     "name": "Tundra",
     "size": "1",
+    "grade": "D",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -751,6 +793,8 @@
     "id": 568,
     "name": "Ultra-Flow",
     "size": "1",
+    "grade": "A",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.1",
     "prices": [
@@ -770,6 +814,8 @@
     "id": 963,
     "name": "VaporBlock",
     "size": "1",
+    "grade": "B",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.9",
     "prices": [
@@ -794,6 +840,8 @@
     "id": 129,
     "name": "Winter-Star",
     "size": "1",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.9",
     "prices": [
@@ -813,6 +861,8 @@
     "id": 566,
     "name": "ZeroRush",
     "size": "1",
+    "grade": "B",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.9",
     "prices": [
@@ -837,6 +887,8 @@
     "id": 958,
     "name": "Arctic",
     "size": "2",
+    "grade": "C",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -845,6 +897,8 @@
     "id": 2025,
     "name": "Aufeis",
     "size": "2",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Wen-Cassel Propulsion",
     "version": "4.9",
     "prices": [
@@ -904,6 +958,8 @@
     "id": 1759,
     "name": "Avalanche",
     "size": "2",
+    "grade": "A",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -912,6 +968,8 @@
     "id": 2150,
     "name": "Boreal",
     "size": "2",
+    "grade": "D",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -920,6 +978,8 @@
     "id": 1921,
     "name": "ColdSnap",
     "size": "2",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -944,6 +1004,8 @@
     "id": 132,
     "name": "CoolCore",
     "size": "2",
+    "grade": "C",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -968,6 +1030,8 @@
     "id": 1521,
     "name": "Cryo-Star EX",
     "size": "2",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.9",
     "prices": [
@@ -987,6 +1051,8 @@
     "id": 130,
     "name": "Frost-Star EX",
     "size": "2",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.9",
     "prices": [
@@ -1006,6 +1072,8 @@
     "id": 125,
     "name": "FullFrost",
     "size": "2",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -1075,6 +1143,8 @@
     "id": 1924,
     "name": "Graupel",
     "size": "2",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Wen-Cassel Propulsion",
     "version": "4.9",
     "prices": [
@@ -1129,6 +1199,8 @@
     "id": 964,
     "name": "HeatSink",
     "size": "2",
+    "grade": "C",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.0.1",
     "prices": [
@@ -1203,6 +1275,8 @@
     "id": 930,
     "name": "HydroJet",
     "size": "2",
+    "grade": "D",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.0.1",
     "prices": [
@@ -1227,6 +1301,8 @@
     "id": 932,
     "name": "IceBox",
     "size": "2",
+    "grade": "B",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.9",
     "prices": [
@@ -1306,6 +1382,8 @@
     "id": 956,
     "name": "IceDive",
     "size": "2",
+    "grade": "C",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.0.1",
     "prices": [
@@ -1320,6 +1398,8 @@
     "id": 933,
     "name": "NightFall",
     "size": "2",
+    "grade": "A",
+    "class": "Stealth",
     "maker": "Tyler Design & Tech",
     "version": "4.0.1",
     "prices": []
@@ -1328,6 +1408,8 @@
     "id": 1760,
     "name": "Permafrost",
     "size": "2",
+    "grade": "B",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1336,6 +1418,8 @@
     "id": 957,
     "name": "RapidCool",
     "size": "2",
+    "grade": "D",
+    "class": "Competition",
     "maker": "ACOM",
     "version": "4.0.1",
     "prices": [
@@ -1350,6 +1434,8 @@
     "id": 2825,
     "name": "Snowfall",
     "size": "2",
+    "grade": "B",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.0.1",
     "prices": []
@@ -1358,6 +1444,8 @@
     "id": 133,
     "name": "SnowPack",
     "size": "2",
+    "grade": "A",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -1377,6 +1465,8 @@
     "id": 2044,
     "name": "Taiga",
     "size": "2",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Wen-Cassel Propulsion",
     "version": "4.9",
     "prices": [
@@ -1401,6 +1491,8 @@
     "id": 1954,
     "name": "WhiteOut",
     "size": "2",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.0.1",
     "prices": [
@@ -1415,6 +1507,8 @@
     "id": 961,
     "name": "Winter-Star EX",
     "size": "2",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.0.1",
     "prices": [
@@ -1429,6 +1523,8 @@
     "id": 1767,
     "name": "Blizzard",
     "size": "3",
+    "grade": "A",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1437,6 +1533,8 @@
     "id": 573,
     "name": "Chill-Max",
     "size": "3",
+    "grade": "A",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -1456,6 +1554,8 @@
     "id": 2042,
     "name": "ColdSurge",
     "size": "3",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.0.1",
     "prices": [
@@ -1470,6 +1570,8 @@
     "id": 124,
     "name": "Cryo-Star XL",
     "size": "3",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.9",
     "prices": [
@@ -1494,6 +1596,8 @@
     "id": 7790,
     "name": "Draug",
     "size": "3",
+    "grade": null,
+    "class": null,
     "maker": null,
     "version": null,
     "prices": []
@@ -1502,6 +1606,8 @@
     "id": 7944,
     "name": "Elsen",
     "size": "3",
+    "grade": null,
+    "class": null,
     "maker": null,
     "version": null,
     "prices": []
@@ -1510,6 +1616,8 @@
     "id": 1918,
     "name": "Frost-Star XL",
     "size": "3",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.0.1",
     "prices": [
@@ -1529,6 +1637,8 @@
     "id": 2155,
     "name": "FrostBite",
     "size": "3",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.1",
     "prices": [
@@ -1548,6 +1658,8 @@
     "id": 1922,
     "name": "FrostBurn",
     "size": "3",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Lightning Power Ltd.",
     "version": "4.9",
     "prices": [
@@ -1577,6 +1689,8 @@
     "id": 959,
     "name": "Galinstan",
     "size": "3",
+    "grade": "D",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1585,6 +1699,8 @@
     "id": 1522,
     "name": "Hydropulse",
     "size": "3",
+    "grade": "D",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.9",
     "prices": [
@@ -1604,6 +1720,8 @@
     "id": 569,
     "name": "Ice-Flush",
     "size": "3",
+    "grade": "B",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.1",
     "prices": [
@@ -1623,6 +1741,8 @@
     "id": 2823,
     "name": "Kragen",
     "size": "3",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Wen-Cassel Propulsion",
     "version": "4.0.1",
     "prices": []
@@ -1631,6 +1751,8 @@
     "id": 1353,
     "name": "Mercury",
     "size": "3",
+    "grade": "C",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1639,6 +1761,8 @@
     "id": 1761,
     "name": "Tempest",
     "size": "3",
+    "grade": "B",
+    "class": "Military",
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1647,6 +1771,8 @@
     "id": 1523,
     "name": "ThermalCore",
     "size": "3",
+    "grade": "C",
+    "class": "Industrial",
     "maker": "Juno Starwerk",
     "version": "4.0.1",
     "prices": [
@@ -1671,6 +1797,8 @@
     "id": 962,
     "name": "Winter-Star XL",
     "size": "3",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.0.1",
     "prices": [
@@ -1685,6 +1813,8 @@
     "id": 4020,
     "name": "Algid",
     "size": "4",
+    "grade": null,
+    "class": null,
     "maker": "Aegis Dynamics",
     "version": "4.0.1",
     "prices": []
@@ -1693,6 +1823,8 @@
     "id": 7939,
     "name": "Exotherm",
     "size": "4",
+    "grade": null,
+    "class": null,
     "maker": null,
     "version": null,
     "prices": []
@@ -1701,6 +1833,8 @@
     "id": 7010,
     "name": "Mauler Cooler",
     "size": "4",
+    "grade": null,
+    "class": null,
     "maker": null,
     "version": null,
     "prices": []
@@ -1709,6 +1843,8 @@
     "id": 2824,
     "name": "Serac",
     "size": "4",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Wen-Cassel Propulsion",
     "version": "4.0.1",
     "prices": []
@@ -1717,6 +1853,8 @@
     "id": 955,
     "name": "Cryo-Star SL",
     "size": "0",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.9",
     "prices": [
@@ -1801,6 +1939,8 @@
     "id": 1923,
     "name": "Fridan",
     "size": "0",
+    "grade": "C",
+    "class": "Civilian",
     "maker": "Wen-Cassel Propulsion",
     "version": "4.9",
     "prices": [
@@ -1830,6 +1970,8 @@
     "id": 571,
     "name": "Kelvid",
     "size": "0",
+    "grade": "B",
+    "class": "Civilian",
     "maker": "Wen-Cassel Propulsion",
     "version": "4.9",
     "prices": [
@@ -1854,6 +1996,8 @@
     "id": 575,
     "name": "Tepilo",
     "size": "0",
+    "grade": "A",
+    "class": "Civilian",
     "maker": "Wen-Cassel Propulsion",
     "version": "4.9",
     "prices": [
@@ -1878,6 +2022,8 @@
     "id": 960,
     "name": "Winter-Star SL",
     "size": "0",
+    "grade": "D",
+    "class": "Civilian",
     "maker": "J-Span",
     "version": "4.0.1",
     "prices": [
