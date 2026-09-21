@@ -141,10 +141,10 @@ const html = `<!DOCTYPE html>
   <div class="container">
     <h1>Ship Component List</h1>
     <div class="subtitle">Star Citizen · In-Game Buy Prices &amp; Locations</div>
-    <div style="text-align:center"><button class="toggle-btn" id="buyToggle" onclick="toggleBuy()">Show Buy Prices</button></div>
   </div>
 </header>
 <div class="container">
+  <div style="margin-bottom:20px"><button class="toggle-btn" id="buyToggle" onclick="toggleBuy()">Show Buy Prices</button></div>
   ${sectionsHtml}
   <div class="footer">
     Generated: ${new Date().toUTCString()} ·
