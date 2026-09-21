@@ -1,231 +1,122 @@
 const fs = require("fs");
 
-function loadJson(file) {
-  try {
-    return JSON.parse(fs.readFileSync(file, "utf-8"));
-  } catch (e) {
-    console.log(`⚠️  ${file} not found, skipping...`);
-    return [];
-  }
+function load(f) {
+  try { return JSON.parse(fs.readFileSync(f, "utf-8")); }
+  catch { console.warn(`${f} not found`); return []; }
 }
 
-const powerPlants = loadJson("power.json");
-const coolers    = loadJson("cooler.json");
-const shields    = loadJson("shield.json");
-const qdrives    = loadJson("qdrives.json");
-const radars     = loadJson("radars.json");
+const SECTIONS = [
+  { file: "power.json",   title: "Power Plants"      },
+  { file: "cooler.json",  title: "Coolers"           },
+  { file: "shield.json",  title: "Shield Generators" },
+  { file: "qdrives.json", title: "Quantum Drives"    },
+  { file: "radars.json",  title: "Radars"            },
+];
+
+function fmtAUEC(n) {
+  if (!n) return "—";
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(2)}M`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(0)}K`;
+  return `${n}`;
+}
 
 function buildRows(items) {
-  const seen = new Set();
-  let rows = "";
+  if (!items.length) return `<tr><td colspan="5" class="no-data">No data</td></tr>`;
+  return items.map(item => {
+    const priceHtml = item.prices.length
+      ? item.prices.map(p => `<span class="price-val">${fmtAUEC(p.buy)} aUEC</span>`).join("")
+      : `<span class="no-data">—</span>`;
+    const locHtml = item.prices.length
+      ? item.prices.map(p => `<span class="loc">${p.city ? p.city + " · " : ""}${p.terminal}</span>`).join("")
+      : `<span class="no-data">—</span>`;
 
-  for (const item of items) {
-    const d = item.data;
-    if (!d) continue;
-
-    const name = d.name || d.shortName;
-    if (!name || seen.has(name)) continue;
-    seen.add(name);
-
-    const cls   = d.class || "-";
-    const grade = d.grade || "-";
-    const size  = d.size  != null ? d.size : "-";
-    const gradeCls = grade !== "-" ? `grade-${grade.toLowerCase()}` : "";
-
-    rows += `
+    return `
       <tr>
-        <td class="comp-name">${name}</td>
-        <td><span class="cls cls-${cls.toLowerCase()}">${cls}</span></td>
-        <td><span class="grade ${gradeCls}">${grade}</span></td>
-        <td>${size}</td>
+        <td class="comp-name">${item.name}</td>
+        <td class="size-cell"><span class="size-badge">S${item.size || "?"}</span></td>
+        <td class="maker-cell">${item.maker || "—"}</td>
+        <td>${priceHtml}</td>
+        <td>${locHtml}</td>
       </tr>`;
-  }
-
-  return rows || `<tr><td colspan="4">No data</td></tr>`;
+  }).join("");
 }
 
 function section(title, items) {
-  const rows = buildRows(items);
   return `
     <div class="section-header">
       <h2>${title}</h2>
+      <span class="count">${items.length} items</span>
     </div>
-    <table>
-      <thead>
-        <tr>
-          <th>Component</th>
-          <th>Class</th>
-          <th>Grade</th>
-          <th>Size</th>
-        </tr>
-      </thead>
-      <tbody>
-        ${rows}
-      </tbody>
-    </table>`;
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Component</th>
+            <th>Size</th>
+            <th>Manufacturer</th>
+            <th>Buy Price (aUEC)</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody>${buildRows(items)}</tbody>
+      </table>
+    </div>`;
 }
 
-const html = `
-<!DOCTYPE html>
-<html>
+const sectionsHtml = SECTIONS.map(s => section(s.title, load(s.file))).join("");
+
+const html = `<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Ship Component List - Star Citizen</title>
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🔧%3C/text%3E%3C/svg%3E">
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
-      color: #e8e8e8;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      min-height: 100vh;
-    }
-
-    .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
-
-    header {
-      background: rgba(10, 14, 39, 0.8);
-      backdrop-filter: blur(10px);
-      border-bottom: 2px solid #2a9fd6;
-      padding: 20px 0;
-      margin-bottom: 30px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
-    }
-
-    h1 {
-      color: #ffffff;
-      font-size: 2rem;
-      font-weight: 600;
-      text-align: center;
-      text-shadow: 0 0 20px rgba(42,159,214,0.5);
-    }
-
-    .subtitle {
-      text-align: center;
-      color: #a0a0a0;
-      font-size: 0.9rem;
-      margin-top: 8px;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: separate;
-      border-spacing: 0;
-      background: rgba(20, 25, 45, 0.6);
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 8px 16px rgba(0,0,0,0.4);
-    }
-
-    th {
-      background: linear-gradient(180deg, #1e3a5f 0%, #152840 100%);
-      color: #ffffff;
-      font-weight: 600;
-      text-transform: uppercase;
-      font-size: 0.85rem;
-      letter-spacing: 0.5px;
-      padding: 16px 12px;
-      text-align: left;
-      border-bottom: 2px solid #2a9fd6;
-    }
-
-    td {
-      padding: 12px 12px;
-      border-bottom: 1px solid rgba(255,255,255,0.05);
-      color: #d0d0d0;
-      font-size: 0.9rem;
-    }
-
-    tr:hover { background-color: rgba(42,159,214,0.1); transition: background-color 0.2s ease; }
-    tr:last-child td { border-bottom: none; }
-
-    .comp-name { font-weight: 600; color: #2a9fd6; }
-
-    .grade {
-      display: inline-block;
-      font-weight: 700;
-      font-size: 0.85rem;
-      padding: 2px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-
-    .cls {
-      display: inline-block;
-      font-weight: 600;
-      font-size: 0.85rem;
-      padding: 2px 8px;
-      border-radius: 4px;
-      letter-spacing: 0.5px;
-    }
-
-    .cls-military    { background: rgba(60, 180, 80,  0.15); color: #3cb450; border: 1px solid rgba(60, 180, 80,  0.3); }
-    .cls-competition { background: rgba(220, 50,  50,  0.15); color: #dc3232; border: 1px solid rgba(220, 50,  50,  0.3); }
-    .cls-stealth     { background: rgba(130, 80,  220, 0.15); color: #8250dc; border: 1px solid rgba(130, 80,  220, 0.3); }
-    .cls-industrial  { background: rgba(210, 140, 30,  0.15); color: #d28c1e; border: 1px solid rgba(210, 140, 30,  0.3); }
-    .cls-civilian    { background: rgba(100, 160, 200, 0.15); color: #64a0c8; border: 1px solid rgba(100, 160, 200, 0.3); }
-
-    .grade-a { background: rgba(180, 60, 255, 0.15); color: #bf40ff; border: 1px solid rgba(180, 60, 255, 0.35); }
-    .grade-b { background: rgba(255, 140, 0,  0.15); color: #ff8c00; border: 1px solid rgba(255, 140, 0,  0.35); }
-    .grade-c { background: rgba(255, 220, 0,  0.15); color: #ffd700; border: 1px solid rgba(255, 220, 0,  0.35); }
-    .grade-d { background: rgba(255, 255, 255, 0.08); color: #e8e8e8; border: 1px solid rgba(255, 255, 255, 0.2); }
-
-    .section-header {
-      background: rgba(42,159,214,0.1);
-      border-left: 4px solid #2a9fd6;
-      padding: 15px 20px;
-      margin: 40px 0 20px 0;
-      border-radius: 4px;
-    }
-
-    .section-header h2 { color: #2a9fd6; font-size: 1.4rem; font-weight: 600; }
-
-    .footer {
-      margin-top: 50px;
-      padding: 20px 0;
-      border-top: 1px solid rgba(42,159,214,0.3);
-      color: #888;
-      font-size: 0.85rem;
-      text-align: center;
-    }
-
-    .footer a { color: #2a9fd6; text-decoration: none; margin: 0 8px; }
-    .footer a:hover { color: #4fc3f7; text-decoration: underline; }
-
-    @media (max-width: 600px) {
-      th, td { padding: 10px 8px; }
-      h1 { font-size: 1.5rem; }
-    }
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{background:linear-gradient(135deg,#0a0e27 0%,#1a1f3a 100%);color:#e8e8e8;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;min-height:100vh}
+    header{background:rgba(10,14,39,.8);backdrop-filter:blur(10px);border-bottom:2px solid #2a9fd6;padding:20px 0;margin-bottom:30px;box-shadow:0 4px 6px rgba(0,0,0,.3)}
+    h1{color:#fff;font-size:2rem;font-weight:600;text-align:center;text-shadow:0 0 20px rgba(42,159,214,.5)}
+    .subtitle{text-align:center;color:#a0a0a0;font-size:.9rem;margin-top:8px}
+    .container{max-width:1200px;margin:0 auto;padding:20px}
+    .section-header{display:flex;align-items:center;gap:14px;background:rgba(42,159,214,.1);border-left:4px solid #2a9fd6;padding:14px 20px;margin:40px 0 0;border-radius:4px}
+    .section-header:first-of-type{margin-top:0}
+    .section-header h2{color:#2a9fd6;font-size:1.3rem;font-weight:600}
+    .count{color:#888;font-size:.82rem}
+    .table-wrap{overflow-x:auto;border-radius:0 0 8px 8px;box-shadow:0 8px 16px rgba(0,0,0,.4);margin-bottom:10px}
+    table{width:100%;border-collapse:separate;border-spacing:0;background:rgba(20,25,45,.6)}
+    th{background:linear-gradient(180deg,#1e3a5f 0%,#152840 100%);color:#fff;font-weight:600;text-transform:uppercase;font-size:.78rem;letter-spacing:.5px;padding:13px 12px;text-align:left;border-bottom:2px solid #2a9fd6;white-space:nowrap}
+    td{padding:10px 12px;border-bottom:1px solid rgba(255,255,255,.05);vertical-align:top;font-size:.85rem}
+    tr:hover td{background:rgba(42,159,214,.08)}
+    tr:last-child td{border-bottom:none}
+    .comp-name{font-weight:600;color:#2a9fd6;min-width:160px}
+    .size-cell{white-space:nowrap}
+    .size-badge{display:inline-block;background:rgba(42,159,214,.15);color:#4fc3f7;border:1px solid rgba(42,159,214,.3);border-radius:4px;font-size:.78rem;font-weight:700;padding:2px 7px}
+    .maker-cell{color:#aaa;font-size:.82rem;white-space:nowrap}
+    .price-val{display:block;font-weight:600;color:#e8e8e8;white-space:nowrap}
+    .loc{display:block;color:#888;font-size:.78rem}
+    .no-data{color:#555;text-align:center}
+    .footer{margin-top:50px;padding:20px 0;border-top:1px solid rgba(42,159,214,.3);color:#888;font-size:.85rem;text-align:center}
+    .footer a{color:#2a9fd6;text-decoration:none;margin:0 8px}
+    .footer a:hover{color:#4fc3f7;text-decoration:underline}
   </style>
 </head>
 <body>
-
-  <header>
-    <div class="container">
-      <h1>Ship Component List</h1>
-      <div class="subtitle">Star Citizen - Components by Class &amp; Grade</div>
-    </div>
-  </header>
-
+<header>
   <div class="container">
-    ${section("Power Plants", powerPlants)}
-    ${section("Coolers",     coolers)}
-    ${section("Shields",     shields)}
-    ${section("Quantum Drives", qdrives)}
-    ${section("Radars",     radars)}
-
-    <div class="footer">
-      Generated: ${new Date().toUTCString()} |
-      <a href="https://github.com/scpages/compoment_list" target="_blank">GitHub Repository</a> |
-      Data from <a href="https://www.erkul.games" target="_blank">erkul.games</a>
-    </div>
+    <h1>Ship Component List</h1>
+    <div class="subtitle">Star Citizen · In-Game Buy Prices &amp; Locations</div>
   </div>
-
+</header>
+<div class="container">
+  ${sectionsHtml}
+  <div class="footer">
+    Generated: ${new Date().toUTCString()} ·
+    <a href="https://github.com/scpages/compoment_list" target="_blank">GitHub</a> ·
+    Data from <a href="https://uexcorp.space" target="_blank">UEX Corp</a>
+  </div>
+</div>
 </body>
-</html>
-`;
+</html>`;
 
 fs.writeFileSync("index.html", html);
-console.log("✅ index.html generated successfully");
+console.log("index.html generated successfully");

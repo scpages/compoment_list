@@ -1,282 +1,1951 @@
 [
   {
-    "data": {
-      "name": "Fridan",
-      "class": "Civilian",
-      "grade": "C",
-      "size": 0
-    }
+    "id": 572,
+    "name": "AbsoluteZero",
+    "size": "1",
+    "maker": "ACOM",
+    "version": "4.0.1",
+    "prices": []
   },
   {
-    "data": {
-      "name": "Frost-Star SL",
-      "class": "Civilian",
-      "grade": "C",
-      "size": 0
-    }
+    "id": 1354,
+    "name": "ArcticStorm",
+    "size": "1",
+    "maker": "Lightning Power Ltd.",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 6884,
+        "city": null,
+        "terminal": "Platinum Bay - ARC-L1"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L1"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Rod's Fuel 'N Supplies"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Orbituary"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Checkmate"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Ruin Station"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Rat's Nest"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Gaslight"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Endgame"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Megumi Refueling"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Starlight Service"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Patch City"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Dudley & Daughters"
+      },
+      {
+        "buy": 8000,
+        "city": "Levski",
+        "terminal": "Teach's Item Shop - Levski"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "ArcticStorm",
-      "class": "Civilian",
-      "grade": "C",
-      "size": 1
-    }
+    "id": 1955,
+    "name": "Berian",
+    "size": "1",
+    "maker": "Wen-Cassel Propulsion",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 8800,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 9827,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L5"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "BlastChill",
-      "class": "Civilian",
-      "grade": "D",
-      "size": 1
-    }
+    "id": 1920,
+    "name": "BlastChill",
+    "size": "1",
+    "maker": "Lightning Power Ltd.",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 3401,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 3953,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L3"
+      },
+      {
+        "buy": 4000,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      },
+      {
+        "buy": 4000,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L5"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Bracer",
-      "class": "Military",
-      "grade": "C",
-      "size": 1
-    }
+    "id": 928,
+    "name": "Bracer",
+    "size": "1",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
   },
   {
-    "data": {
-      "name": "Eco-Flow",
-      "class": "Industrial",
-      "grade": "B",
-      "size": 1
-    }
+    "id": 1762,
+    "name": "Cryo-Star",
+    "size": "1",
+    "maker": "J-Span",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 16000,
+        "city": "Orison",
+        "terminal": "Cousin Crow's - Providence Platform - Orison"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Ship Parts - Rod's Fuel 'N Supplies"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Ship Parts - Orbituary"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Ship Parts - Checkmate"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Ship Parts - Ruin Station"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Ship Parts - Rat's Nest"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Ship Parts - Gaslight"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Ship Parts - Endgame"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Ship Parts - Megumi Refueling"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Ship Parts - Starlight Service"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Ship Parts - Patch City"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Ship Parts - Dudley & Daughters"
+      },
+      {
+        "buy": 16000,
+        "city": "Levski",
+        "terminal": "Teach's Item Shop - Levski"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Frost-Star",
-      "class": "Civilian",
-      "grade": "C",
-      "size": 1
-    }
+    "id": 1519,
+    "name": "Eco-Flow",
+    "size": "1",
+    "maker": "Juno Starwerk",
+    "version": "4.1",
+    "prices": [
+      {
+        "buy": 41040,
+        "city": null,
+        "terminal": "Platinum Bay - Everus Harbor"
+      },
+      {
+        "buy": 43200,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      },
+      {
+        "buy": 43200,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Glacier",
-      "class": "Military",
-      "grade": "A",
-      "size": 1
-    }
+    "id": 2043,
+    "name": "Endo",
+    "size": "1",
+    "maker": "Wen-Cassel Propulsion",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 17600,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L3"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "HeatSafe",
-      "class": "Stealth",
-      "grade": "C",
-      "size": 1
-    }
+    "id": 574,
+    "name": "FlashFreeze",
+    "size": "1",
+    "maker": "Lightning Power Ltd.",
+    "version": "4.1",
+    "prices": [
+      {
+        "buy": 16000,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Hydrocel",
-      "class": "Industrial",
-      "grade": "D",
-      "size": 1
-    }
+    "id": 128,
+    "name": "Frost-Star",
+    "size": "1",
+    "maker": "J-Span",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 9706,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      },
+      {
+        "buy": 10658,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "IcePlunge",
-      "class": "Competition",
-      "grade": "C",
-      "size": 1
-    }
+    "id": 1520,
+    "name": "Frost-Star SL",
+    "size": "1",
+    "maker": "J-Span",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 3800,
+        "city": null,
+        "terminal": "Platinum Bay - Everus Harbor"
+      },
+      {
+        "buy": 4000,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      },
+      {
+        "buy": 4853,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Polar",
-      "class": "Military",
-      "grade": "B",
-      "size": 1
-    }
+    "id": 126,
+    "name": "Gelid",
+    "size": "1",
+    "maker": "Wen-Cassel Propulsion",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 35200,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 35200,
+        "city": null,
+        "terminal": "Platinum Bay - Terra Gateway (Stanton)"
+      },
+      {
+        "buy": 35200,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L2"
+      },
+      {
+        "buy": 35200,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Stanton)"
+      },
+      {
+        "buy": 35200,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Pyro)"
+      },
+      {
+        "buy": 35200,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Nyx)"
+      },
+      {
+        "buy": 35200,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Nyx)"
+      },
+      {
+        "buy": 35200,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Pyro)"
+      },
+      {
+        "buy": 35200,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Stanton)"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "QuikCool",
-      "class": "Competition",
-      "grade": "D",
-      "size": 1
-    }
+    "id": 954,
+    "name": "Glacier",
+    "size": "1",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
   },
   {
-    "data": {
-      "name": "Thermax",
-      "class": "Industrial",
-      "grade": "C",
-      "size": 1
-    }
+    "id": 931,
+    "name": "HeatSafe",
+    "size": "1",
+    "maker": "Tyler Design & Tech",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Platinum Bay - Baijini Point"
+      },
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Ship Parts - Rod's Fuel 'N Supplies"
+      },
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Ship Parts - Orbituary"
+      },
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Ship Parts - Checkmate"
+      },
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Ship Parts - Ruin Station"
+      },
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Ship Parts - Rat's Nest"
+      },
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Ship Parts - Gaslight"
+      },
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Ship Parts - Endgame"
+      },
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Ship Parts - Megumi Refueling"
+      },
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Ship Parts - Starlight Service"
+      },
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Ship Parts - Patch City"
+      },
+      {
+        "buy": 30800,
+        "city": null,
+        "terminal": "Ship Parts - Dudley & Daughters"
+      },
+      {
+        "buy": 30800,
+        "city": "Levski",
+        "terminal": "Teach's Item Shop - Levski"
+      },
+      {
+        "buy": 32362,
+        "city": null,
+        "terminal": "Platinum Bay - Terra Gateway (Stanton)"
+      },
+      {
+        "buy": 32362,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L2"
+      },
+      {
+        "buy": 32362,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Stanton)"
+      },
+      {
+        "buy": 32362,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Pyro)"
+      },
+      {
+        "buy": 32362,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Nyx)"
+      },
+      {
+        "buy": 32362,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Nyx)"
+      },
+      {
+        "buy": 32362,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Pyro)"
+      },
+      {
+        "buy": 32362,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Stanton)"
+      },
+      {
+        "buy": 33513,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L5"
+      },
+      {
+        "buy": 36034,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Ultra-Flow",
-      "class": "Industrial",
-      "grade": "A",
-      "size": 1
-    }
+    "id": 131,
+    "name": "Hydrocel",
+    "size": "1",
+    "maker": "Juno Starwerk",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 10800,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 10800,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L1"
+      },
+      {
+        "buy": 10825,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "VaporBlock",
-      "class": "Stealth",
-      "grade": "B",
-      "size": 1
-    }
+    "id": 2024,
+    "name": "IcePlunge",
+    "size": "1",
+    "maker": "ACOM",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 22000,
+        "city": null,
+        "terminal": "Platinum Bay - Terra Gateway (Stanton)"
+      },
+      {
+        "buy": 22000,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L2"
+      },
+      {
+        "buy": 22000,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Stanton)"
+      },
+      {
+        "buy": 22000,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Pyro)"
+      },
+      {
+        "buy": 22000,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Nyx)"
+      },
+      {
+        "buy": 22000,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Nyx)"
+      },
+      {
+        "buy": 22000,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Pyro)"
+      },
+      {
+        "buy": 22000,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Stanton)"
+      },
+      {
+        "buy": 26330,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L3"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Winter-Star",
-      "class": "Civilian",
-      "grade": "D",
-      "size": 1
-    }
+    "id": 1766,
+    "name": "Polar",
+    "size": "1",
+    "maker": "Aegis Dynamics",
+    "version": "4.9",
+    "prices": []
   },
   {
-    "data": {
-      "name": "AbsoluteZero",
-      "class": "Competition",
-      "grade": "B",
-      "size": 2
-    }
+    "id": 127,
+    "name": "QuikCool",
+    "size": "1",
+    "maker": "ACOM",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 11000,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Platinum Bay - Terra Gateway (Stanton)"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L2"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Stanton)"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Shop Terminal - Canard View"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Shop Terminal - Seer's Canyon"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Shop Terminal - Rustville"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Shop Terminal - Jackson's Swap"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Shop Terminal - Sunset Mesa"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Shop Terminal - Chawla's Beach"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Pyro)"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Shop Terminal - Kabir's Post"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Shop Terminal - Fallow Field"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Shop Terminal - Ashland"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Shop Terminal - Last Landings"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Shop Terminal - Sacren's Plot"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Nyx)"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Nyx)"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Pyro)"
+      },
+      {
+        "buy": 11000,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Stanton)"
+      },
+      {
+        "buy": 13127,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L5"
+      },
+      {
+        "buy": 13165,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L3"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Arctic",
-      "class": "Military",
-      "grade": "C",
-      "size": 2
-    }
+    "id": 927,
+    "name": "SnowBlind",
+    "size": "1",
+    "maker": "Tyler Design & Tech",
+    "version": "4.0.1",
+    "prices": []
   },
   {
-    "data": {
-      "name": "Boreal",
-      "class": "Military",
-      "grade": "D",
-      "size": 2
-    }
+    "id": 1919,
+    "name": "Thermax",
+    "size": "1",
+    "maker": "Juno Starwerk",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 21600,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      },
+      {
+        "buy": 21600,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L1"
+      },
+      {
+        "buy": 21650,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "ColdSnap",
-      "class": "Civilian",
-      "grade": "C",
-      "size": 2
-    }
+    "id": 929,
+    "name": "Tundra",
+    "size": "1",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
   },
   {
-    "data": {
-      "name": "CoolCore",
-      "class": "Industrial",
-      "grade": "C",
-      "size": 2
-    }
+    "id": 568,
+    "name": "Ultra-Flow",
+    "size": "1",
+    "maker": "Juno Starwerk",
+    "version": "4.1",
+    "prices": [
+      {
+        "buy": 86400,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      },
+      {
+        "buy": 86400,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Frost-Star EX",
-      "class": "Civilian",
-      "grade": "C",
-      "size": 2
-    }
+    "id": 963,
+    "name": "VaporBlock",
+    "size": "1",
+    "maker": "Tyler Design & Tech",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 61600,
+        "city": null,
+        "terminal": "Platinum Bay - Port Tressler"
+      },
+      {
+        "buy": 61600,
+        "city": "Orison",
+        "terminal": "Cousin Crow's - Providence Platform - Orison"
+      },
+      {
+        "buy": 72068,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Graupel",
-      "class": "Civilian",
-      "grade": "C",
-      "size": 2
-    }
+    "id": 129,
+    "name": "Winter-Star",
+    "size": "1",
+    "maker": "J-Span",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 4000,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 4853,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "HeatSink",
-      "class": "Stealth",
-      "grade": "C",
-      "size": 2
-    }
+    "id": 566,
+    "name": "ZeroRush",
+    "size": "1",
+    "maker": "ACOM",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 44000,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      },
+      {
+        "buy": 44000,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L5"
+      },
+      {
+        "buy": 44000,
+        "city": "Orison",
+        "terminal": "Cousin Crow's - Providence Platform - Orison"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Permafrost",
-      "class": "Military",
-      "grade": "B",
-      "size": 2
-    }
+    "id": 958,
+    "name": "Arctic",
+    "size": "2",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
   },
   {
-    "data": {
-      "name": "Snowfall",
-      "class": "Industrial",
-      "grade": "B",
-      "size": 2
-    }
+    "id": 2025,
+    "name": "Aufeis",
+    "size": "2",
+    "maker": "Wen-Cassel Propulsion",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 70400,
+        "city": null,
+        "terminal": "Platinum Bay - Terra Gateway (Stanton)"
+      },
+      {
+        "buy": 70400,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L3"
+      },
+      {
+        "buy": 70400,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L2"
+      },
+      {
+        "buy": 70400,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Stanton)"
+      },
+      {
+        "buy": 70400,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Pyro)"
+      },
+      {
+        "buy": 70400,
+        "city": "Orison",
+        "terminal": "Cousin Crow's - Providence Platform - Orison"
+      },
+      {
+        "buy": 70400,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Nyx)"
+      },
+      {
+        "buy": 70400,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Nyx)"
+      },
+      {
+        "buy": 70400,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Pyro)"
+      },
+      {
+        "buy": 70400,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Stanton)"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Blizzard",
-      "class": "Military",
-      "grade": "A",
-      "size": 3
-    }
+    "id": 1759,
+    "name": "Avalanche",
+    "size": "2",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
   },
   {
-    "data": {
-      "name": "FrostBurn",
-      "class": "Civilian",
-      "grade": "C",
-      "size": 3
-    }
+    "id": 2150,
+    "name": "Boreal",
+    "size": "2",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
   },
   {
-    "data": {
-      "name": "Ice-Flush",
-      "class": "Industrial",
-      "grade": "B",
-      "size": 3
-    }
+    "id": 1921,
+    "name": "ColdSnap",
+    "size": "2",
+    "maker": "Lightning Power Ltd.",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 15103,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      },
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L1"
+      },
+      {
+        "buy": 16000,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Mercury",
-      "class": "Military",
-      "grade": "C",
-      "size": 3
-    }
+    "id": 132,
+    "name": "CoolCore",
+    "size": "2",
+    "maker": "Juno Starwerk",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 21600,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 21600,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L1"
+      },
+      {
+        "buy": 21650,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "ThermalCore",
-      "class": "Industrial",
-      "grade": "C",
-      "size": 3
-    }
+    "id": 1521,
+    "name": "Cryo-Star EX",
+    "size": "2",
+    "maker": "J-Span",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 30400,
+        "city": null,
+        "terminal": "Platinum Bay - Everus Harbor"
+      },
+      {
+        "buy": 32000,
+        "city": "Orison",
+        "terminal": "Cousin Crow's - Providence Platform - Orison"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Algid",
-      "class": "Industrial",
-      "grade": "A",
-      "size": 4
-    }
+    "id": 130,
+    "name": "Frost-Star EX",
+    "size": "2",
+    "maker": "J-Span",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 19411,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      },
+      {
+        "buy": 21316,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Exotherm",
-      "class": null,
-      "grade": "A",
-      "size": 4
-    }
+    "id": 125,
+    "name": "FullFrost",
+    "size": "2",
+    "maker": "Lightning Power Ltd.",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 32000,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 32000,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Pyro)"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - Baijini Point"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - Terra Gateway (Stanton)"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L2"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Stanton)"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Nyx)"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Nyx)"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Pyro)"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Stanton)"
+      }
+    ]
   },
   {
-    "data": {
-      "name": "Serac",
-      "class": "Civilian",
-      "grade": "A",
-      "size": 4
-    }
+    "id": 1924,
+    "name": "Graupel",
+    "size": "2",
+    "maker": "Wen-Cassel Propulsion",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 17600,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      },
+      {
+        "buy": 17600,
+        "city": null,
+        "terminal": "Platinum Bay - Terra Gateway (Stanton)"
+      },
+      {
+        "buy": 17600,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L2"
+      },
+      {
+        "buy": 17600,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Stanton)"
+      },
+      {
+        "buy": 17600,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Pyro)"
+      },
+      {
+        "buy": 17600,
+        "city": null,
+        "terminal": "Platinum Bay - Pyro Gateway (Nyx)"
+      },
+      {
+        "buy": 17600,
+        "city": null,
+        "terminal": "Platinum Bay - Stanton Gateway (Nyx)"
+      },
+      {
+        "buy": 17600,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Pyro)"
+      },
+      {
+        "buy": 17600,
+        "city": null,
+        "terminal": "Platinum Bay - Nyx Gateway (Stanton)"
+      }
+    ]
+  },
+  {
+    "id": 964,
+    "name": "HeatSink",
+    "size": "2",
+    "maker": "Tyler Design & Tech",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Platinum Bay - Port Tressler"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Rod's Fuel 'N Supplies"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Orbituary"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Checkmate"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Ruin Station"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Rat's Nest"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Gaslight"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Endgame"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Megumi Refueling"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Starlight Service"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Patch City"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Dudley & Daughters"
+      },
+      {
+        "buy": 123200,
+        "city": "Levski",
+        "terminal": "Teach's Item Shop - Levski"
+      }
+    ]
+  },
+  {
+    "id": 930,
+    "name": "HydroJet",
+    "size": "2",
+    "maker": "Juno Starwerk",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 18240,
+        "city": null,
+        "terminal": "Platinum Bay - Baijini Point"
+      },
+      {
+        "buy": 18240,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L1"
+      },
+      {
+        "buy": 18282,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      }
+    ]
+  },
+  {
+    "id": 932,
+    "name": "IceBox",
+    "size": "2",
+    "maker": "Tyler Design & Tech",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Platinum Bay - Baijini Point"
+      },
+      {
+        "buy": 123200,
+        "city": "Orison",
+        "terminal": "Cousin Crow's - Providence Platform - Orison"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Rod's Fuel 'N Supplies"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Orbituary"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Checkmate"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Ruin Station"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Rat's Nest"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Gaslight"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Endgame"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Megumi Refueling"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Starlight Service"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Patch City"
+      },
+      {
+        "buy": 123200,
+        "city": null,
+        "terminal": "Ship Parts - Dudley & Daughters"
+      },
+      {
+        "buy": 123200,
+        "city": "Levski",
+        "terminal": "Teach's Item Shop - Levski"
+      }
+    ]
+  },
+  {
+    "id": 956,
+    "name": "IceDive",
+    "size": "2",
+    "maker": "ACOM",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 44000,
+        "city": null,
+        "terminal": "Platinum Bay - Port Tressler"
+      }
+    ]
+  },
+  {
+    "id": 933,
+    "name": "NightFall",
+    "size": "2",
+    "maker": "Tyler Design & Tech",
+    "version": "4.0.1",
+    "prices": []
+  },
+  {
+    "id": 1760,
+    "name": "Permafrost",
+    "size": "2",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
+  },
+  {
+    "id": 957,
+    "name": "RapidCool",
+    "size": "2",
+    "maker": "ACOM",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 22000,
+        "city": null,
+        "terminal": "Platinum Bay - Port Tressler"
+      }
+    ]
+  },
+  {
+    "id": 2825,
+    "name": "Snowfall",
+    "size": "2",
+    "maker": "Juno Starwerk",
+    "version": "4.0.1",
+    "prices": []
+  },
+  {
+    "id": 133,
+    "name": "SnowPack",
+    "size": "2",
+    "maker": "Juno Starwerk",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 172800,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 172800,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      }
+    ]
+  },
+  {
+    "id": 2044,
+    "name": "Taiga",
+    "size": "2",
+    "maker": "Wen-Cassel Propulsion",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 35200,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L3"
+      },
+      {
+        "buy": 35200,
+        "city": "Orison",
+        "terminal": "Cousin Crow's - Providence Platform - Orison"
+      },
+      {
+        "buy": 35200,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      }
+    ]
+  },
+  {
+    "id": 1954,
+    "name": "WhiteOut",
+    "size": "2",
+    "maker": "Lightning Power Ltd.",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L5"
+      }
+    ]
+  },
+  {
+    "id": 961,
+    "name": "Winter-Star EX",
+    "size": "2",
+    "maker": "J-Span",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Platinum Bay - Port Tressler"
+      }
+    ]
+  },
+  {
+    "id": 1767,
+    "name": "Blizzard",
+    "size": "3",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
+  },
+  {
+    "id": 573,
+    "name": "Chill-Max",
+    "size": "3",
+    "maker": "Juno Starwerk",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 345600,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 345600,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      }
+    ]
+  },
+  {
+    "id": 2042,
+    "name": "ColdSurge",
+    "size": "3",
+    "maker": "Lightning Power Ltd.",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L3"
+      }
+    ]
+  },
+  {
+    "id": 124,
+    "name": "Cryo-Star XL",
+    "size": "3",
+    "maker": "J-Span",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 64000,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 64000,
+        "city": "Orison",
+        "terminal": "Cousin Crow's - Providence Platform - Orison"
+      },
+      {
+        "buy": 64000,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      }
+    ]
+  },
+  {
+    "id": 7790,
+    "name": "Draug",
+    "size": "3",
+    "maker": null,
+    "version": null,
+    "prices": []
+  },
+  {
+    "id": 7944,
+    "name": "Elsen",
+    "size": "3",
+    "maker": null,
+    "version": null,
+    "prices": []
+  },
+  {
+    "id": 1918,
+    "name": "Frost-Star XL",
+    "size": "3",
+    "maker": "J-Span",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - Port Tressler"
+      }
+    ]
+  },
+  {
+    "id": 2155,
+    "name": "FrostBite",
+    "size": "3",
+    "maker": "Lightning Power Ltd.",
+    "version": "4.1",
+    "prices": [
+      {
+        "buy": 64000,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      },
+      {
+        "buy": 64000,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      }
+    ]
+  },
+  {
+    "id": 1922,
+    "name": "FrostBurn",
+    "size": "3",
+    "maker": "Lightning Power Ltd.",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 27201,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      },
+      {
+        "buy": 29088,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L5"
+      },
+      {
+        "buy": 30205,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      },
+      {
+        "buy": 32000,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L1"
+      }
+    ]
+  },
+  {
+    "id": 959,
+    "name": "Galinstan",
+    "size": "3",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
+  },
+  {
+    "id": 1522,
+    "name": "Hydropulse",
+    "size": "3",
+    "maker": "Juno Starwerk",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 41040,
+        "city": null,
+        "terminal": "Platinum Bay - Everus Harbor"
+      },
+      {
+        "buy": 43200,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      }
+    ]
+  },
+  {
+    "id": 569,
+    "name": "Ice-Flush",
+    "size": "3",
+    "maker": "Juno Starwerk",
+    "version": "4.1",
+    "prices": [
+      {
+        "buy": 164160,
+        "city": null,
+        "terminal": "Platinum Bay - Everus Harbor"
+      },
+      {
+        "buy": 172800,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      }
+    ]
+  },
+  {
+    "id": 2823,
+    "name": "Kragen",
+    "size": "3",
+    "maker": "Wen-Cassel Propulsion",
+    "version": "4.0.1",
+    "prices": []
+  },
+  {
+    "id": 1353,
+    "name": "Mercury",
+    "size": "3",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
+  },
+  {
+    "id": 1761,
+    "name": "Tempest",
+    "size": "3",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
+  },
+  {
+    "id": 1523,
+    "name": "ThermalCore",
+    "size": "3",
+    "maker": "Juno Starwerk",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 82080,
+        "city": null,
+        "terminal": "Platinum Bay - Everus Harbor"
+      },
+      {
+        "buy": 86400,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L1"
+      },
+      {
+        "buy": 86597,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      }
+    ]
+  },
+  {
+    "id": 962,
+    "name": "Winter-Star XL",
+    "size": "3",
+    "maker": "J-Span",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 16000,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      }
+    ]
+  },
+  {
+    "id": 4020,
+    "name": "Algid",
+    "size": "4",
+    "maker": "Aegis Dynamics",
+    "version": "4.0.1",
+    "prices": []
+  },
+  {
+    "id": 7939,
+    "name": "Exotherm",
+    "size": "4",
+    "maker": null,
+    "version": null,
+    "prices": []
+  },
+  {
+    "id": 7010,
+    "name": "Mauler Cooler",
+    "size": "4",
+    "maker": null,
+    "version": null,
+    "prices": []
+  },
+  {
+    "id": 2824,
+    "name": "Serac",
+    "size": "4",
+    "maker": "Wen-Cassel Propulsion",
+    "version": "4.0.1",
+    "prices": []
+  },
+  {
+    "id": 955,
+    "name": "Cryo-Star SL",
+    "size": "0",
+    "maker": "J-Span",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Platinum Bay - Port Tressler"
+      },
+      {
+        "buy": 8000,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      },
+      {
+        "buy": 8000,
+        "city": "Orison",
+        "terminal": "Cousin Crow's - Providence Platform - Orison"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Rod's Fuel 'N Supplies"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Orbituary"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Checkmate"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Ruin Station"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Rat's Nest"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Gaslight"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Endgame"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Megumi Refueling"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Starlight Service"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Patch City"
+      },
+      {
+        "buy": 8000,
+        "city": null,
+        "terminal": "Ship Parts - Dudley & Daughters"
+      },
+      {
+        "buy": 8000,
+        "city": "Levski",
+        "terminal": "Teach's Item Shop - Levski"
+      }
+    ]
+  },
+  {
+    "id": 1923,
+    "name": "Fridan",
+    "size": "0",
+    "maker": "Wen-Cassel Propulsion",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 4400,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      },
+      {
+        "buy": 4400,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L3"
+      },
+      {
+        "buy": 4834,
+        "city": null,
+        "terminal": "Dumper's Depot - GrimHEX"
+      },
+      {
+        "buy": 5023,
+        "city": "Area 18",
+        "terminal": "Dumper's Depot - Area 18"
+      }
+    ]
+  },
+  {
+    "id": 571,
+    "name": "Kelvid",
+    "size": "0",
+    "maker": "Wen-Cassel Propulsion",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 8800,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      },
+      {
+        "buy": 8800,
+        "city": "Orison",
+        "terminal": "Cousin Crow's - Providence Platform - Orison"
+      },
+      {
+        "buy": 8800,
+        "city": null,
+        "terminal": "Platinum Bay - CRU-L4"
+      }
+    ]
+  },
+  {
+    "id": 575,
+    "name": "Tepilo",
+    "size": "0",
+    "maker": "Wen-Cassel Propulsion",
+    "version": "4.9",
+    "prices": [
+      {
+        "buy": 17600,
+        "city": null,
+        "terminal": "Platinum Bay - HUR-L3"
+      },
+      {
+        "buy": 17600,
+        "city": "New Babbage",
+        "terminal": "Omega Pro - New Babbage"
+      },
+      {
+        "buy": 17600,
+        "city": "Orison",
+        "terminal": "Cousin Crow's - Providence Platform - Orison"
+      }
+    ]
+  },
+  {
+    "id": 960,
+    "name": "Winter-Star SL",
+    "size": "0",
+    "maker": "J-Span",
+    "version": "4.0.1",
+    "prices": [
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Platinum Bay - Port Tressler"
+      },
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Ship Parts - Rod's Fuel 'N Supplies"
+      },
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Ship Parts - Orbituary"
+      },
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Ship Parts - Checkmate"
+      },
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Ship Parts - Ruin Station"
+      },
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Ship Parts - Rat's Nest"
+      },
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Ship Parts - Gaslight"
+      },
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Ship Parts - Endgame"
+      },
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Ship Parts - Megumi Refueling"
+      },
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Ship Parts - Starlight Service"
+      },
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Ship Parts - Patch City"
+      },
+      {
+        "buy": 2000,
+        "city": null,
+        "terminal": "Ship Parts - Dudley & Daughters"
+      },
+      {
+        "buy": 2000,
+        "city": "Levski",
+        "terminal": "Teach's Item Shop - Levski"
+      }
+    ]
   }
 ]

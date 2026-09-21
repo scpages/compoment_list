@@ -2,11 +2,11 @@
 set -e
 cd "$(dirname "$0")"
 
-echo "Fetching component data from cdn.erkul.games..."
-node fetch_cdn.js
+echo "Fetching component data from api.uexcorp.space..."
+node fetch.js
 
 echo ""
-git add power.json cooler.json shield.json qdrives.json radars.json weapons.json
+git add power.json cooler.json shield.json qdrives.json radars.json
 
 if git diff --staged --quiet; then
   echo "No changes in component data."
