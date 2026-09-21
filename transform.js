@@ -55,8 +55,8 @@ function buildRows(items) {
         <td class="size-cell"><span class="size-badge">S${item.size || "?"}</span></td>
         <td><span class="cls ${classCls}">${classStr}</span></td>
         <td><span class="grade ${gradeCls}">${gradeStr}</span></td>
-        <td>${priceHtml}</td>
-        <td>${locHtml}</td>
+        <td class="buy-col">${priceHtml}</td>
+        <td class="buy-col">${locHtml}</td>
       </tr>`;
   }).join("");
 }
@@ -75,8 +75,8 @@ function section(title, items) {
             <th>Size</th>
             <th>Class</th>
             <th>Grade</th>
-            <th>Buy Price (aUEC)</th>
-            <th>Location</th>
+            <th class="buy-col">Buy Price (aUEC)</th>
+            <th class="buy-col">Location</th>
           </tr>
         </thead>
         <tbody>${buildRows(items)}</tbody>
@@ -130,6 +130,10 @@ const html = `<!DOCTYPE html>
     .footer{margin-top:50px;padding:20px 0;border-top:1px solid rgba(42,159,214,.3);color:#888;font-size:.85rem;text-align:center}
     .footer a{color:#2a9fd6;text-decoration:none;margin:0 8px}
     .footer a:hover{color:#4fc3f7;text-decoration:underline}
+    .toggle-btn{display:inline-block;background:rgba(42,159,214,.12);color:#4fc3f7;border:1px solid rgba(42,159,214,.4);border-radius:5px;padding:6px 16px;font-size:.82rem;font-weight:600;cursor:pointer;transition:background .15s,border-color .15s;user-select:none;margin-top:10px}
+    .toggle-btn:hover{background:rgba(42,159,214,.25);border-color:#2a9fd6}
+    .toggle-btn.active{background:rgba(42,159,214,.3);border-color:#4fc3f7;color:#fff}
+    body.hide-buy th.buy-col,body.hide-buy td.buy-col{display:none}
   </style>
 </head>
 <body>
@@ -137,6 +141,7 @@ const html = `<!DOCTYPE html>
   <div class="container">
     <h1>Ship Component List</h1>
     <div class="subtitle">Star Citizen · In-Game Buy Prices &amp; Locations</div>
+    <div style="text-align:center"><button class="toggle-btn" id="buyToggle" onclick="toggleBuy()">Show Buy Prices</button></div>
   </div>
 </header>
 <div class="container">
@@ -147,6 +152,24 @@ const html = `<!DOCTYPE html>
     Data from <a href="https://uexcorp.space" target="_blank">UEX Corp</a>
   </div>
 </div>
+<script>
+  var PREF_KEY = "complist_show_buy";
+  function toggleBuy() {
+    var show = document.body.classList.toggle("hide-buy") === false;
+    document.getElementById("buyToggle").classList.toggle("active", show);
+    document.getElementById("buyToggle").textContent = show ? "Hide Buy Prices" : "Show Buy Prices";
+    localStorage.setItem(PREF_KEY, show ? "1" : "0");
+  }
+  (function() {
+    var saved = localStorage.getItem(PREF_KEY);
+    if (saved === "1") {
+      document.getElementById("buyToggle").classList.add("active");
+      document.getElementById("buyToggle").textContent = "Hide Buy Prices";
+    } else {
+      document.body.classList.add("hide-buy");
+    }
+  })();
+</script>
 </body>
 </html>`;
 
