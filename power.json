@@ -90,7 +90,7 @@
   {
     "id": 1928,
     "name": "ExoGen",
-    "size": "1",
+    "size": 2,
     "grade": "D",
     "class": "Military",
     "maker": "Amon & Reese Co.",
@@ -238,7 +238,7 @@
   {
     "id": 1925,
     "name": "IonWave",
-    "size": "1",
+    "size": 0,
     "grade": "B",
     "class": "Civilian",
     "maker": "Lightning Power Ltd.",
@@ -447,7 +447,7 @@
   {
     "id": 1926,
     "name": "NewDawn",
-    "size": "1",
+    "size": 3,
     "grade": "C",
     "class": "Civilian",
     "maker": "Sakura Sun",
@@ -748,7 +748,7 @@
   {
     "id": 1912,
     "name": "SuperDrive",
-    "size": "1",
+    "size": 3,
     "grade": "C",
     "class": "Military",
     "maker": "Amon & Reese Co.",
@@ -758,7 +758,7 @@
   {
     "id": 1956,
     "name": "TurboDrive",
-    "size": "1",
+    "size": 2,
     "grade": "C",
     "class": "Military",
     "maker": "Amon & Reese Co.",
@@ -1082,7 +1082,7 @@
   {
     "id": 2027,
     "name": "OverDrive",
-    "size": "2",
+    "size": 1,
     "grade": "C",
     "class": "Military",
     "maker": "Amon & Reese Co.",
@@ -1458,7 +1458,7 @@
   {
     "id": 938,
     "name": "Charger",
-    "size": "3",
+    "size": 1,
     "grade": "D",
     "class": "Military",
     "maker": "Aegis Dynamics",
@@ -1499,7 +1499,7 @@
   {
     "id": 970,
     "name": "Eclipse",
-    "size": "3",
+    "size": 2,
     "grade": "A",
     "class": "Stealth",
     "maker": "Tyler Design & Tech",
@@ -1519,7 +1519,7 @@
   {
     "id": 944,
     "name": "GammaMax",
-    "size": "3",
+    "size": 2,
     "grade": "B",
     "class": "Stealth",
     "maker": "Tyler Design & Tech",
@@ -1591,7 +1591,7 @@
   {
     "id": 138,
     "name": "LuxCore",
-    "size": "3",
+    "size": 2,
     "grade": "A",
     "class": "Competition",
     "maker": "ACOM",
@@ -1621,7 +1621,7 @@
   {
     "id": 967,
     "name": "Regulus",
-    "size": "3",
+    "size": 1,
     "grade": "C",
     "class": "Military",
     "maker": "Aegis Dynamics",
@@ -1631,7 +1631,7 @@
   {
     "id": 937,
     "name": "Slipstream",
-    "size": "3",
+    "size": 1,
     "grade": "A",
     "class": "Stealth",
     "maker": "Tyler Design & Tech",
@@ -1896,7 +1896,7 @@
   {
     "id": 2826,
     "name": "Main Powerplant",
-    "size": null,
+    "size": 4,
     "grade": "A",
     "class": "Industrial",
     "maker": "Aegis Dynamics",
@@ -1942,7 +1942,7 @@
   {
     "id": 2827,
     "name": "Reliance",
-    "size": null,
+    "size": 3,
     "grade": "B",
     "class": "Industrial",
     "maker": "Juno Starwerk",
@@ -1973,7 +1973,7 @@
   {
     "id": 2828,
     "name": "Stellate",
-    "size": null,
+    "size": 4,
     "grade": "A",
     "class": "Civilian",
     "maker": "Sakura Sun",

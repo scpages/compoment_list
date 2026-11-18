@@ -922,7 +922,7 @@
   {
     "id": 5103,
     "name": "Voir",
-    "size": "",
+    "size": 1,
     "grade": null,
     "class": "Military",
     "maker": "Groupe Nouveau Paradigme",

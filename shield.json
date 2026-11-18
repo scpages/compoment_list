@@ -110,7 +110,7 @@
   {
     "id": 2041,
     "name": "Aspis",
-    "size": "1",
+    "size": 2,
     "grade": "C",
     "class": "Industrial",
     "maker": "Basilisk",
@@ -263,7 +263,7 @@
   {
     "id": 2793,
     "name": "Glacis",
-    "size": "1",
+    "size": 4,
     "grade": "A",
     "class": "Industrial",
     "maker": "Origin Jumpworks",
@@ -273,7 +273,7 @@
   {
     "id": 2040,
     "name": "GUARD",
-    "size": "1",
+    "size": 3,
     "grade": "C",
     "class": "Civilian",
     "maker": "Seal Corporation",
@@ -505,7 +505,7 @@
   {
     "id": 3979,
     "name": "RS-Barrier",
-    "size": "1",
+    "size": 4,
     "grade": "D",
     "class": "Military",
     "maker": "Aegis Dynamics",
@@ -902,7 +902,7 @@
   {
     "id": 1526,
     "name": "AllStop",
-    "size": "2",
+    "size": 1,
     "grade": "C",
     "class": "Military",
     "maker": "Gorgon Defender Industries",
@@ -1036,7 +1036,7 @@
   {
     "id": 1936,
     "name": "Falco",
-    "size": "2",
+    "size": 1,
     "grade": "D",
     "class": "Competition",
     "maker": "Yorm",
@@ -1397,7 +1397,7 @@
   {
     "id": 1527,
     "name": "Targa",
-    "size": "2",
+    "size": 1,
     "grade": "C",
     "class": "Competition",
     "maker": "Yorm",
